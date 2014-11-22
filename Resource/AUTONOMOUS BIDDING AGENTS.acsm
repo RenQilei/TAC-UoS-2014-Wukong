@@ -1,0 +1,37 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:26ad446a-bb2b-444c-9d55-75c06bd5bf75</distributor>
+  <operatorURL>http://acs.ebrary.com/fulfillment</operatorURL>
+  <transaction>27462033-0000000002</transaction>
+  <expiration>2014-11-28T06:15:33-08:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:00000000-0000-0000-0000-000010190448</resource>
+    <resourceItem>0</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Autonomous Bidding Agents : Strategies and Lessons from the Trading Agent Competition</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Wellman, Michael P.(Author)</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">MIT Press</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">10190448</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:00000000-0000-0000-0000-000010190448</resource>
+      <permissions>
+        <display>
+          <duration>1209600</duration>
+        </display>
+        <excerpt>
+          <duration>1209600</duration>
+          <count initial="25"/>
+        </excerpt>
+        <print>
+          <duration>1209600</duration>
+          <count initial="25"/>
+        </print>
+        <play>
+          <duration>1209600</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>nNPtGmAzq8MDVz272Hu2MmGTzaA=</hmac>
+</fulfillmentToken>
