@@ -1,0 +1,1503 @@
+28/11 16:11:00 FINE server.InfoManager|Log for game 4 started
+************************************************************
+* Log for game 4 started
+************************************************************
+
+
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-1 is awaiting solver
+28/11 16:11:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11688)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel   E1 day 1                   score = 1204
+Client 2 stays 1 - 2 on good hotel   E1 day 1                   score = 1192
+Client 3 stays 1 - 3 on good hotel                              score = 1089
+Client 4 stays 1 - 3 on cheap hotel                             score = 900
+Client 5 stays 1 - 4 on good hotel   E1 day 1 E2 day 2 E3 day 3 score = 1483
+Client 6 stays 4 - 5 on good hotel                              score = 945
+Client 7 stays 4 - 5 on good hotel                              score = 790
+Client 8 stays 1 - 5 on cheap hotel  E1 day 1 E2 day 2 E3 day 3 score = 1426
+Total score = 9029 utility = 9029 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 203    	Bound: 2522
+-------------------------------------------
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-1 finished solving
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 6 of type 0 for price 1000.0 allocation=6 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((6 1000.0000)) at auction 0 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 3 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 1000.0000)) at auction 0 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 4 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 1000.0000)) at auction 1 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 5 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 1000.0000)) at auction 1 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 6 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 1000.0000)) at auction 1 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 3 of type 7 for price 1000.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((3 1000.0000)) at auction 1 day 5
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 8 for price 70.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 70.0000)) at auction 2 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 9 for price 122.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 122.0000)) at auction 2 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 10 for price 99.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 99.0000)) at auction 2 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 11 for price 88.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 88.0000)) at auction 2 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 4 of type 12 for price 94.0 allocation=4 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((4 94.0000)) at auction 3 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 13 for price 176.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 176.0000)) at auction 3 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 14 for price 131.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 131.0000)) at auction 3 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 15 for price 117.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 117.0000)) at auction 3 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is selling 2 of type 18 allocation=0 for price 116.70528627622726
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 116.7053)) at auction 4 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is selling 2 of type 20 allocation=0 for price 119.43691738055021
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 119.4369)) at auction 5 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 21 for price 50.00366996990317 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 50.0037)) at auction 5 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-1 is selling 2 of type 26 allocation=2 for price 180.99116457356104
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 180.9912)) at auction 6 day 3
+28/11 16:11:00 FINE classic.DummyAgent|DummyAgent Dummy-1
+inflights((6-6|0)(0-0|0)(0-0|0)(2-2|0)),outflights((2-2|0)(2-2|0)(1-1|0)(3-3|0))
+good hotel((2-0|0)(2-0|0)(1-0|0)(1-0|0)),cheap hotel((4-0|0)(2-0|0)(1-0|0)(2-0|0))
+wrestling((4-4|0)(0-0|0)(0-2|0)(0-0|0)),amusement((0-2|0)(2-0|0)(0-0|0)(0-0|0)),museum((0-0|0)(0-0|0)(2-4|0)(0-0|0))
+
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-2 is awaiting solver
+28/11 16:11:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11973)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel   E1 day 1                   score = 1163
+Client 2 stays 1 - 2 on good hotel   E1 day 1                   score = 1238
+Client 3 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1303
+Client 4 stays 3 - 5 on good hotel   E1 day 3 E2 day 4          score = 1236
+Client 5 stays 4 - 5 on good hotel                              score = 863
+Client 6 stays 3 - 5 on good hotel   E1 day 3 E2 day 4          score = 1438
+Client 7 stays 4 - 5 on good hotel   E1 day 4                   score = 1061
+Client 8 stays 1 - 3 on good hotel                              score = 869
+Total score = 9171 utility = 9171 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 191    	Bound: 2819
+-------------------------------------------
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-2 finished solving
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 4 of type 0 for price 1000.0 allocation=4 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((4 1000.0000)) at auction 0 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 2 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 1000.0000)) at auction 0 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 3 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 1000.0000)) at auction 0 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 4 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 1000.0000)) at auction 1 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 5 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 1000.0000)) at auction 1 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 4 of type 7 for price 1000.0 allocation=4 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((4 1000.0000)) at auction 1 day 5
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 4 of type 12 for price 115.0 allocation=4 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((4 115.0000)) at auction 3 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 13 for price 168.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 168.0000)) at auction 3 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 14 for price 183.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 183.0000)) at auction 3 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 4 of type 15 for price 168.0 allocation=4 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((4 168.0000)) at auction 3 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is selling 1 of type 16 allocation=3 for price 150.0086435530939
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-1 150.0086)) at auction 4 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 19 for price 50.003241309097675 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 50.0032)) at auction 4 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 21 for price 50.00185411666647 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 50.0019)) at auction 5 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 23 for price 50.002952723466336 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 50.0030)) at auction 5 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is selling 2 of type 24 allocation=0 for price 119.97602126308013
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-2 119.9760)) at auction 6 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-2 is selling 4 of type 25 allocation=0 for price 196.53894510329775
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-4 196.5389)) at auction 6 day 2
+28/11 16:11:00 FINE classic.DummyAgent|DummyAgent Dummy-2
+inflights((4-4|0)(0-0|0)(2-2|0)(2-2|0)),outflights((2-2|0)(2-2|0)(0-0|0)(4-4|0))
+good hotel((0-0|0)(0-0|0)(0-0|0)(0-0|0)),cheap hotel((4-0|0)(2-0|0)(2-0|0)(4-0|0))
+wrestling((3-4|0)(0-0|0)(2-2|0)(1-0|0)),amusement((0-0|0)(1-0|0)(0-0|0)(2-0|0)),museum((0-2|0)(0-4|0)(0-0|0)(0-0|0))
+
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-3 is awaiting solver
+28/11 16:11:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12096)
+-------------------------------------------
+Client 1 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1314
+Client 2 stays 4 - 5 on good hotel   E1 day 4                   score = 1258
+Client 3 stays 1 - 4 on good hotel   E1 day 1 E2 day 2          score = 1367
+Client 4 stays 2 - 5 on cheap hotel  E1 day 2 E2 day 3 E3 day 4 score = 1498
+Client 5 stays 1 - 2 on good hotel                              score = 765
+Client 6 stays 4 - 5 on good hotel                              score = 814
+Client 7 stays 1 - 3 on good hotel                              score = 916
+Client 8 stays 3 - 5 on good hotel   E1 day 3 E2 day 4          score = 1158
+Total score = 9090 utility = 9090 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 231    	Bound: 2114
+-------------------------------------------
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-3 finished solving
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 4 of type 0 for price 1000.0 allocation=4 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((4 1000.0000)) at auction 0 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 1 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 1000.0000)) at auction 0 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 2 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 1000.0000)) at auction 0 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 3 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 1000.0000)) at auction 0 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 4 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 1000.0000)) at auction 1 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 5 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 1000.0000)) at auction 1 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 6 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 1000.0000)) at auction 1 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 4 of type 7 for price 1000.0 allocation=4 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((4 1000.0000)) at auction 1 day 5
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 9 for price 103.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 103.0000)) at auction 2 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 10 for price 105.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 105.0000)) at auction 2 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 11 for price 87.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 87.0000)) at auction 2 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 4 of type 12 for price 112.0 allocation=4 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((4 112.0000)) at auction 3 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 3 of type 13 for price 237.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((3 237.0000)) at auction 3 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 14 for price 173.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 173.0000)) at auction 3 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 3 of type 15 for price 152.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((3 152.0000)) at auction 3 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 16 for price 50.00562090981746 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 50.0056)) at auction 4 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is selling 1 of type 17 allocation=1 for price 167.77077041696904
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 167.7708)) at auction 4 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 18 for price 50.00756948487936 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 50.0076)) at auction 4 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 19 for price 50.00378345742713 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 50.0038)) at auction 4 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 21 for price 50.00531859061506 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 50.0053)) at auction 5 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is selling 3 of type 22 allocation=1 for price 151.12626589374003
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 151.1263)) at auction 5 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is selling 3 of type 23 allocation=1 for price 180.56477219907012
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 180.5648)) at auction 5 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-3 is selling 1 of type 27 allocation=1 for price 124.75424315551948
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 124.7542)) at auction 6 day 4
+28/11 16:11:00 FINE classic.DummyAgent|DummyAgent Dummy-3
+inflights((4-4|0)(1-1|0)(1-1|0)(2-2|0)),outflights((1-1|0)(2-2|0)(1-1|0)(4-4|0))
+good hotel((0-0|0)(1-0|0)(1-0|0)(1-0|0)),cheap hotel((4-0|0)(3-0|0)(2-0|0)(3-0|0))
+wrestling((2-0|0)(1-2|0)(1-0|0)(1-0|0)),amusement((0-0|0)(2-0|0)(1-4|0)(1-4|0)),museum((0-0|0)(0-0|0)(0-0|0)(1-2|0))
+
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-4 is awaiting solver
+28/11 16:11:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12359)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel   E1 day 1                   score = 1184
+Client 2 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1303
+Client 3 stays 3 - 4 on good hotel   E1 day 3                   score = 1133
+Client 4 stays 1 - 3 on good hotel   E1 day 1                   score = 1241
+Client 5 stays 1 - 2 on good hotel                              score = 1032
+Client 6 stays 1 - 3 on cheap hotel                             score = 900
+Client 7 stays 1 - 4 on good hotel            E2 day 2 E3 day 3 score = 1450
+Client 8 stays 4 - 5 on good hotel   E1 day 4                   score = 1011
+Total score = 9254 utility = 9254 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 204    	Bound: 2540
+-------------------------------------------
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-4 finished solving
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 6 of type 0 for price 1000.0 allocation=6 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((6 1000.0000)) at auction 0 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 2 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 1000.0000)) at auction 0 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 3 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 1000.0000)) at auction 0 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 2 of type 4 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 1000.0000)) at auction 1 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 3 of type 5 for price 1000.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 1000.0000)) at auction 1 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 2 of type 6 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 1000.0000)) at auction 1 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 7 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 1000.0000)) at auction 1 day 5
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 8 for price 60.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 60.0000)) at auction 2 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 9 for price 101.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 101.0000)) at auction 2 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 5 of type 12 for price 148.0 allocation=5 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((5 148.0000)) at auction 3 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 3 of type 13 for price 193.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 193.0000)) at auction 3 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 2 of type 14 for price 172.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 172.0000)) at auction 3 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 15 for price 104.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 104.0000)) at auction 3 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 3 of type 16 for price 50.00451650208053 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 50.0045)) at auction 4 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is selling 3 of type 18 allocation=1 for price 108.0482129603042
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-3 108.0482)) at auction 4 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is selling 1 of type 19 allocation=1 for price 107.03153533950153
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 107.0315)) at auction 4 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is buying 2 of type 21 for price 50.00636259325144 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 50.0064)) at auction 5 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is selling 4 of type 24 allocation=0 for price 188.07055319477342
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-4 188.0706)) at auction 6 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-4 is selling 1 of type 26 allocation=1 for price 119.5439342810575
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 119.5439)) at auction 6 day 3
+28/11 16:11:00 FINE classic.DummyAgent|DummyAgent Dummy-4
+inflights((6-6|0)(0-0|0)(1-1|0)(1-1|0)),outflights((2-2|0)(3-3|0)(2-2|0)(1-1|0))
+good hotel((1-0|0)(1-0|0)(0-0|0)(0-0|0)),cheap hotel((5-0|0)(3-0|0)(2-0|0)(1-0|0))
+wrestling((3-0|0)(0-0|0)(1-4|0)(1-2|0)),amusement((0-0|0)(2-0|0)(0-0|0)(0-0|0)),museum((0-4|0)(0-0|0)(1-2|0)(0-0|0))
+
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-5 is awaiting solver
+28/11 16:11:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11878)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel   E1 day 1                   score = 1325
+Client 2 stays 4 - 5 on good hotel                              score = 1079
+Client 3 stays 3 - 4 on good hotel                              score = 1114
+Client 4 stays 1 - 3 on good hotel            E2 day 2          score = 1294
+Client 5 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1396
+Client 6 stays 2 - 4 on cheap hotel  E1 day 2                   score = 1093
+Client 7 stays 4 - 5 on good hotel                              score = 868
+Client 8 stays 4 - 5 on good hotel                              score = 926
+Total score = 9095 utility = 9095 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 191    	Bound: 3113
+-------------------------------------------
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-5 finished solving
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 3 of type 0 for price 1000.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((3 1000.0000)) at auction 0 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 1 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 1000.0000)) at auction 0 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 2 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 1000.0000)) at auction 0 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 3 of type 3 for price 1000.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((3 1000.0000)) at auction 0 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 4 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 1000.0000)) at auction 1 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 5 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 1000.0000)) at auction 1 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 6 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 1000.0000)) at auction 1 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 3 of type 7 for price 1000.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((3 1000.0000)) at auction 1 day 5
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 9 for price 98.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 98.0000)) at auction 2 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 10 for price 113.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 113.0000)) at auction 2 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 3 of type 12 for price 120.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((3 120.0000)) at auction 3 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 13 for price 170.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 170.0000)) at auction 3 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 14 for price 140.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 140.0000)) at auction 3 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 3 of type 15 for price 107.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((3 107.0000)) at auction 3 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 16 for price 50.00933317465211 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 50.0093)) at auction 4 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is selling 1 of type 17 allocation=1 for price 100.16127320678058
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-1 100.1613)) at auction 4 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is selling 2 of type 20 allocation=0 for price 195.10690229070275
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 195.1069)) at auction 5 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is selling 2 of type 21 allocation=2 for price 143.18433611782766
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 143.1843)) at auction 5 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-5 is selling 4 of type 27 allocation=0 for price 169.51150911935483
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-4 169.5115)) at auction 6 day 4
+28/11 16:11:00 FINE classic.DummyAgent|DummyAgent Dummy-5
+inflights((3-3|0)(1-1|0)(1-1|0)(3-3|0)),outflights((1-1|0)(2-2|0)(2-2|0)(3-3|0))
+good hotel((0-0|0)(1-0|0)(1-0|0)(0-0|0)),cheap hotel((3-0|0)(2-0|0)(1-0|0)(3-0|0))
+wrestling((2-0|0)(1-2|0)(0-0|0)(0-0|0)),amusement((0-2|0)(2-4|0)(0-0|0)(0-0|0)),museum((0-0|0)(0-0|0)(0-0|0)(0-4|0))
+
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-6 is awaiting solver
+28/11 16:11:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12014)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel                              score = 1110
+Client 2 stays 1 - 3 on good hotel                              score = 1083
+Client 3 stays 1 - 3 on good hotel   E1 day 1                   score = 1273
+Client 4 stays 2 - 4 on good hotel   E1 day 2 E2 day 3          score = 1342
+Client 5 stays 1 - 3 on cheap hotel  E1 day 1                   score = 1023
+Client 6 stays 1 - 2 on good hotel   E1 day 1                   score = 1061
+Client 7 stays 2 - 5 on cheap hotel  E1 day 2 E2 day 3 E3 day 4 score = 1495
+Client 8 stays 3 - 5 on good hotel   E1 day 3                   score = 1183
+Total score = 9570 utility = 9570 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 242    	Bound: 2621
+-------------------------------------------
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-6 finished solving
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 5 of type 0 for price 1000.0 allocation=5 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((5 1000.0000)) at auction 0 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 1 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 1000.0000)) at auction 0 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 2 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 1000.0000)) at auction 0 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 4 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 1000.0000)) at auction 1 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 3 of type 5 for price 1000.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 1000.0000)) at auction 1 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 6 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 1000.0000)) at auction 1 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 7 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 1000.0000)) at auction 1 day 5
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 8 for price 49.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 49.0000)) at auction 2 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 9 for price 116.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 116.0000)) at auction 2 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 10 for price 98.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 98.0000)) at auction 2 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 11 for price 77.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 77.0000)) at auction 2 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 4 of type 12 for price 115.0 allocation=4 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((4 115.0000)) at auction 3 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 3 of type 13 for price 187.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 187.0000)) at auction 3 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 14 for price 165.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 165.0000)) at auction 3 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 15 for price 94.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 94.0000)) at auction 3 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 3 of type 16 for price 50.00386131434044 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 50.0039)) at auction 4 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 17 allocation=2 for price 115.43235272006046
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 115.4324)) at auction 4 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 18 for price 50.004234941004405 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 50.0042)) at auction 4 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is selling 4 of type 20 allocation=0 for price 166.42801317210626
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-4 166.4280)) at auction 5 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 22 for price 50.00448598901099 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 50.0045)) at auction 5 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 24 allocation=0 for price 144.66667320197638
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 144.6667)) at auction 6 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 25 allocation=0 for price 126.34939039235104
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 126.3494)) at auction 6 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 27 for price 50.00783188986973 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 50.0078)) at auction 6 day 4
+28/11 16:11:00 FINE classic.DummyAgent|DummyAgent Dummy-6
+inflights((5-5|0)(2-2|0)(1-1|0)(0-0|0)),outflights((2-2|0)(3-3|0)(1-1|0)(2-2|0))
+good hotel((1-0|0)(2-0|0)(1-0|0)(1-0|0)),cheap hotel((4-0|0)(3-0|0)(2-0|0)(1-0|0))
+wrestling((3-0|0)(2-4|0)(1-0|0)(0-0|0)),amusement((0-4|0)(0-0|0)(2-0|0)(0-0|0)),museum((0-2|0)(0-2|0)(0-0|0)(1-0|0))
+
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-7 is awaiting solver
+28/11 16:11:00 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11765)
+-------------------------------------------
+Client 1 stays 2 - 3 on good hotel                              score = 1103
+Client 2 stays 3 - 5 on good hotel   E1 day 3                   score = 1125
+Client 3 stays 1 - 3 on good hotel                              score = 1130
+Client 4 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1445
+Client 5 stays 2 - 4 on cheap hotel                             score = 1000
+Client 6 stays 1 - 2 on good hotel                              score = 851
+Client 7 stays 4 - 5 on good hotel   E1 day 4                   score = 1065
+Client 8 stays 4 - 5 on good hotel   E1 day 4                   score = 905
+Total score = 8624 utility = 8624 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 197    	Bound: 2381
+-------------------------------------------
+28/11 16:11:00 FINEST classic.DummyAgent|Agent Dummy-7 finished solving
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 3 of type 0 for price 1000.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((3 1000.0000)) at auction 0 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 2 of type 1 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((2 1000.0000)) at auction 0 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 2 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 1000.0000)) at auction 0 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 2 of type 3 for price 1000.0 allocation=2 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((2 1000.0000)) at auction 0 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 4 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 1000.0000)) at auction 1 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 3 of type 5 for price 1000.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((3 1000.0000)) at auction 1 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 6 for price 1000.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 1000.0000)) at auction 1 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 3 of type 7 for price 1000.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((3 1000.0000)) at auction 1 day 5
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 9 for price 94.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 94.0000)) at auction 2 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 10 for price 110.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 110.0000)) at auction 2 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 3 of type 12 for price 96.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((3 96.0000)) at auction 3 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 3 of type 13 for price 203.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((3 203.0000)) at auction 3 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 14 for price 117.0 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 117.0000)) at auction 3 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 3 of type 15 for price 121.0 allocation=3 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((3 121.0000)) at auction 3 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 16 for price 50.00656619326369 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 50.0066)) at auction 4 day 1
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 18 for price 50.0069874310583 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 50.0070)) at auction 4 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is selling 2 of type 19 allocation=2 for price 143.77651202573463
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 143.7765)) at auction 4 day 4
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 21 for price 50.006593161284584 allocation=1 own=0
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 50.0066)) at auction 5 day 2
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is selling 4 of type 22 allocation=0 for price 124.04106701954693
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-4 124.0411)) at auction 5 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is selling 2 of type 26 allocation=0 for price 172.4269464862657
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 172.4269)) at auction 6 day 3
+28/11 16:11:00 INFO classic.DummyAgent|Agent Dummy-7 is selling 2 of type 27 allocation=0 for price 105.81927736641438
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 105.8193)) at auction 6 day 4
+28/11 16:11:00 FINE classic.DummyAgent|DummyAgent Dummy-7
+inflights((3-3|0)(2-2|0)(1-1|0)(2-2|0)),outflights((1-1|0)(3-3|0)(1-1|0)(3-3|0))
+good hotel((0-0|0)(1-0|0)(1-0|0)(0-0|0)),cheap hotel((3-0|0)(3-0|0)(1-0|0)(3-0|0))
+wrestling((1-0|0)(0-0|0)(1-0|0)(2-4|0)),amusement((0-0|0)(1-0|0)(0-4|0)(0-0|0)),museum((0-0|0)(0-0|0)(0-2|0)(0-2|0))
+
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 152.7962)) at auction 4 day 3
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 50.0069)) at auction 4 day 3
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-3 190.5340)) at auction 4 day 3
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 50.0046)) at auction 4 day 3
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 50.0115)) at auction 4 day 3
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 197.5398)) at auction 5 day 1
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 144.5822)) at auction 5 day 1
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-4 199.7005)) at auction 5 day 1
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 50.0055)) at auction 5 day 2
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 50.0113)) at auction 5 day 2
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 50.0074)) at auction 5 day 2
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 50.0109)) at auction 5 day 2
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 155.9560)) at auction 5 day 2
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 50.0102)) at auction 5 day 2
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 140.5417)) at auction 6 day 3
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 180.4247)) at auction 6 day 3
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 140.9517)) at auction 6 day 3
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-1 181.6259)) at auction 4 day 1
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 50.0064)) at auction 4 day 1
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 50.0044)) at auction 4 day 1
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 50.0108)) at auction 4 day 1
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 50.0081)) at auction 4 day 1
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 50.0072)) at auction 4 day 1
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 50.0089)) at auction 4 day 4
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 50.0057)) at auction 4 day 4
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 182.3183)) at auction 4 day 4
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 166.9082)) at auction 4 day 4
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 50.0065)) at auction 5 day 4
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 109.7988)) at auction 5 day 4
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-2 154.5521)) at auction 6 day 1
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-4 107.3479)) at auction 6 day 1
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 159.6481)) at auction 6 day 1
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-4 193.0227)) at auction 6 day 2
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 186.1270)) at auction 6 day 2
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 154.6695)) at auction 4 day 2
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-1 120.7376)) at auction 4 day 2
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 155.8630)) at auction 4 day 2
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 154.0186)) at auction 5 day 3
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 50.0054)) at auction 5 day 3
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-4 162.2234)) at auction 5 day 3
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 192.7338)) at auction 6 day 4
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-4 160.0981)) at auction 6 day 4
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 50.0069)) at auction 6 day 4
+28/11 16:11:00 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 134.7686)) at auction 6 day 4
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-1 is awaiting solver
+28/11 16:12:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11688)
+-------------------------------------------
+Client 1 stays 1 - 3 on good hotel   E1 day 1                   score = 1104
+Client 2 stays 1 - 3 on good hotel   E1 day 1                   score = 1092
+Client 3 stays 1 - 2 on good hotel                              score = 989
+Client 4 stays 1 - 2 on good hotel                              score = 862
+Client 5 stays 2 - 4 on cheap hotel  E1 day 2 E2 day 3          score = 1190
+Client 6 stays 4 - 5 on good hotel                              score = 945
+Client 7 stays 4 - 5 on cheap hotel                             score = 700
+Client 8 stays 1 - 5 on good hotel   E1 day 1 E2 day 2 E3 day 3 score = 1524
+Total score = 8406 utility = 8406 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 184    	Bound: 7163
+-------------------------------------------
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-1 finished solving
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 1 for price 1000.0 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 1000.0000)) at auction 0 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-1 is buying 3 of type 13 for price 220.0 allocation=3 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((3 220.0000)) at auction 3 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-1 is selling 1 of type 16 allocation=3 for price 115.07539226650643
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-1 115.0754)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 17 for price 54.4102509430854 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-1 101.3899)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 54.4103)) at auction 4 day 2
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-1 145.6992)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-1 is selling 2 of type 18 allocation=0 for price 139.4257596707189
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 56.9797)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 139.4258)) at auction 4 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 54.0833)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-1 is selling 2 of type 20 allocation=0 for price 163.6388954818039
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 59.0441)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 163.6389)) at auction 5 day 1
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 57.4394)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 21 for price 55.675600231159976 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 53.1855)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 55.6756)) at auction 5 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 22 for price 53.12409158236179 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 55.4077)) at auction 4 day 2
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 53.1241)) at auction 5 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 165.2184)) at auction 4 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-1 is selling 3 of type 26 allocation=1 for price 140.3476667509374
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-1 142.6989)) at auction 4 day 2
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-3 140.3477)) at auction 6 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 145.8044)) at auction 4 day 2
+28/11 16:12:10 FINE classic.DummyAgent|DummyAgent Dummy-1
+inflights((5-6|0)(1-1|0)(0-0|0)(2-2|0)),outflights((2-2|0)(2-2|0)(1-1|0)(3-3|0))
+good hotel((0-0|2)(1-0|2)(1-0|1)(1-0|1)),cheap hotel((5-0|0C)(3-0|2)(1-0|1)(2-0|2))
+wrestling((3-4|0)(1-0|0)(0-2|0)(0-0|0)),amusement((0-2|0)(1-0|0)(1-0|0)(0-0|0)),museum((0-0|0)(0-0|0)(1-4|0)(0-0|0))
+
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-6 is awaiting solver
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 94.9926)) at auction 4 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 54.4626)) at auction 4 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-3 107.2129)) at auction 4 day 3
+28/11 16:12:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12014)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel                              score = 1110
+Client 2 stays 1 - 3 on cheap hotel                             score = 1000
+Client 3 stays 1 - 3 on cheap hotel  E1 day 1                   score = 1197
+Client 4 stays 2 - 4 on good hotel   E1 day 2 E2 day 3          score = 1342
+Client 5 stays 1 - 3 on cheap hotel  E1 day 1                   score = 1023
+Client 6 stays 1 - 2 on cheap hotel  E1 day 1                   score = 958
+Client 7 stays 2 - 5 on good hotel   E1 day 2 E2 day 3 E3 day 4 score = 1590
+Client 8 stays 3 - 5 on cheap hotel  E1 day 3                   score = 1048
+Total score = 9268 utility = 9268 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 247    	Bound: 8833
+-------------------------------------------
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 56.4720)) at auction 4 day 3
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-6 finished solving
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 58.8313)) at auction 4 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 4 of type 8 for price 74.0 allocation=4 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((4 74.0000)) at auction 2 day 1
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 57.3126)) at auction 5 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 3 of type 9 for price 145.0 allocation=3 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 58.9027)) at auction 5 day 2
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 145.0000)) at auction 2 day 2
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 55.2409)) at auction 5 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 15 for price 104.0 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 55.4699)) at auction 5 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 3 of type 16 for price 58.49100493558613 allocation=3 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 175.2370)) at auction 5 day 2
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 58.4910)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 53.3649)) at auction 5 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 17 allocation=2 for price 178.73899793747833
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 55.3213)) at auction 5 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 178.7390)) at auction 4 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 18 for price 58.17407326329736 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 130.2086)) at auction 5 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 58.1741)) at auction 4 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 56.2335)) at auction 5 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-6 is selling 4 of type 20 allocation=0 for price 107.59492751818206
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-4 174.2956)) at auction 5 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-4 107.5949)) at auction 5 day 1
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-3 122.8556)) at auction 6 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 22 for price 58.79714940174412 allocation=2 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 101.4524)) at auction 6 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 58.7971)) at auction 5 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 151.2199)) at auction 6 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 24 allocation=0 for price 115.69917872360861
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 115.6992)) at auction 6 day 1
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 166.7502)) at auction 5 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 25 allocation=0 for price 101.59421987814538
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 110.7227)) at auction 5 day 1
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-4 105.1855)) at auction 5 day 1
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 101.5942)) at auction 6 day 2
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-4 115.0316)) at auction 6 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 27 for price 57.344414433064145 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 173.6597)) at auction 6 day 2
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 57.3444)) at auction 6 day 4
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 103.3701)) at auction 6 day 4
+28/11 16:12:10 FINE classic.DummyAgent|DummyAgent Dummy-6
+inflights((5-5|0)(2-2|0)(1-1|0)(0-0|0)),outflights((2-2|0)(3-3|0)(1-1|0)(2-2|0))
+good hotel((4-0|1)(3-0|2)(1-0|1)(1-0|1)),cheap hotel((1-4|0C)(2-0|3)(2-0|2)(1-0|0))
+wrestling((3-0|0)(2-4|0)(1-0|0)(0-0|0)),amusement((0-4|0)(0-0|0)(2-0|0)(0-0|0)),museum((0-2|0)(0-2|0)(0-0|0)(1-0|0))
+
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-4 166.3088)) at auction 6 day 4
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-5 is awaiting solver
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 56.6822)) at auction 6 day 4
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 127.6253)) at auction 6 day 4
+28/11 16:12:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11878)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel   E1 day 1                   score = 1325
+Client 2 stays 4 - 5 on good hotel                              score = 1079
+Client 3 stays 3 - 4 on good hotel                              score = 1114
+Client 4 stays 1 - 3 on good hotel            E2 day 2          score = 1294
+Client 5 stays 1 - 3 on cheap hotel  E1 day 1 E2 day 2          score = 1270
+Client 6 stays 2 - 4 on cheap hotel  E1 day 2                   score = 1093
+Client 7 stays 4 - 5 on cheap hotel                             score = 800
+Client 8 stays 4 - 5 on good hotel                              score = 926
+Total score = 8901 utility = 8901 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 205    	Bound: 9012
+-------------------------------------------
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-5 finished solving
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 8 for price 57.0 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 57.0000)) at auction 2 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 9 for price 123.0 allocation=2 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 123.0000)) at auction 2 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-5 is buying 1 of type 11 for price 72.0 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((1 72.0000)) at auction 2 day 4
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 16 for price 53.173116550126345 allocation=2 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 53.1731)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-5 is selling 1 of type 17 allocation=1 for price 124.89039378486599
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-1 124.8904)) at auction 4 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-5 is selling 2 of type 20 allocation=0 for price 161.94000051654842
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 161.9400)) at auction 5 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-5 is selling 2 of type 21 allocation=2 for price 131.79925483876332
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 131.7993)) at auction 5 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-5 is selling 4 of type 27 allocation=0 for price 135.09314061322704
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-4 135.0931)) at auction 6 day 4
+28/11 16:12:10 FINE classic.DummyAgent|DummyAgent Dummy-5
+inflights((3-3|0)(1-1|0)(1-1|0)(3-3|0)),outflights((1-1|0)(2-2|0)(2-2|0)(3-3|0))
+good hotel((1-0|0)(2-0|1)(1-0|1)(1-0|0)),cheap hotel((2-3|0C)(1-0|2)(1-0|1)(2-0|3))
+wrestling((2-0|0)(1-2|0)(0-0|0)(0-0|0)),amusement((0-2|0)(2-4|0)(0-0|0)(0-0|0)),museum((0-0|0)(0-0|0)(0-0|0)(0-4|0))
+
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-4 is awaiting solver
+28/11 16:12:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12359)
+-------------------------------------------
+Client 1 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1226
+Client 2 stays 1 - 4 on cheap hotel  E1 day 1 E2 day 2 E3 day 3 score = 1250
+Client 3 stays 3 - 4 on cheap hotel  E1 day 3                   score = 1072
+Client 4 stays 1 - 3 on cheap hotel  E1 day 1                   score = 1136
+Client 5 stays 1 - 3 on cheap hotel                             score = 1000
+Client 6 stays 1 - 2 on cheap hotel                             score = 800
+Client 7 stays 1 - 2 on cheap hotel                             score = 800
+Client 8 stays 4 - 5 on good hotel   E1 day 4                   score = 1011
+Total score = 8295 utility = 8295 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 223    	Bound: 8273
+-------------------------------------------
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-4 finished solving
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-4 is buying 5 of type 8 for price 105.0 allocation=5 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((5 105.0000)) at auction 2 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-4 is buying 3 of type 9 for price 158.0 allocation=3 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 158.0000)) at auction 2 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-4 is buying 2 of type 10 for price 118.0 allocation=2 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 118.0000)) at auction 2 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-4 is buying 3 of type 16 for price 58.807828479878026 allocation=3 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 58.8078)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-4 is selling 3 of type 18 allocation=1 for price 99.22222641624317
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-3 99.2222)) at auction 4 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-4 is selling 1 of type 19 allocation=1 for price 163.26599440906472
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 163.2660)) at auction 4 day 4
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-4 is buying 2 of type 21 for price 53.89953072229413 allocation=2 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 57.3331)) at auction 4 day 4
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 53.8995)) at auction 5 day 2
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 56.1796)) at auction 4 day 4
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-4 is selling 4 of type 24 allocation=0 for price 113.47613487185043
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 132.5600)) at auction 4 day 4
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-4 113.4761)) at auction 6 day 1
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 156.9497)) at auction 4 day 4
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-4 is selling 1 of type 26 allocation=1 for price 129.08129284890663
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-2 127.0981)) at auction 6 day 1
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 129.0813)) at auction 6 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-4 170.8556)) at auction 6 day 1
+28/11 16:12:10 FINE classic.DummyAgent|DummyAgent Dummy-4
+inflights((6-6|0)(0-0|0)(1-1|0)(1-1|0)),outflights((2-2|0)(3-3|0)(2-2|0)(1-1|0))
+good hotel((5-0|1)(3-0|1)(2-0|0)(0-0|0)),cheap hotel((1-5|0C)(1-0|3)(0-0|2)(1-0|1))
+wrestling((3-0|0)(0-0|0)(1-4|0)(1-2|0)),amusement((0-0|0)(2-0|0)(0-0|0)(0-0|0)),museum((0-4|0)(0-0|0)(1-2|0)(0-0|0))
+
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 161.0250)) at auction 6 day 1
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-2 is awaiting solver
+28/11 16:12:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11973)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel   E1 day 1                   score = 1163
+Client 2 stays 1 - 2 on good hotel   E1 day 1                   score = 1238
+Client 3 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1303
+Client 4 stays 3 - 5 on cheap hotel  E1 day 3 E2 day 4          score = 1130
+Client 5 stays 3 - 5 on cheap hotel                             score = 900
+Client 6 stays 4 - 5 on good hotel   E1 day 4                   score = 1175
+Client 7 stays 4 - 5 on good hotel   E1 day 4                   score = 1061
+Client 8 stays 1 - 3 on cheap hotel                             score = 800
+Total score = 8770 utility = 8770 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 214    	Bound: 8304
+-------------------------------------------
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-2 finished solving
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 8 for price 43.0 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 43.0000)) at auction 2 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 9 for price 103.0 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 103.0000)) at auction 2 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 10 for price 141.0 allocation=2 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 141.0000)) at auction 2 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 11 for price 76.0 allocation=2 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 76.0000)) at auction 2 day 4
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 13 for price 170.0 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-2 is selling 1 of type 16 allocation=3 for price 114.0462425899273
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-1 114.0462)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-2 is selling 1 of type 18 allocation=1 for price 131.121475447761
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-1 131.1215)) at auction 4 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 19 for price 53.58728023717031 allocation=2 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 53.5873)) at auction 4 day 4
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 21 for price 55.084047292975875 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 55.0840)) at auction 5 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 23 for price 57.34191321539035 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 57.3419)) at auction 5 day 4
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 52.7564)) at auction 5 day 4
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-2 is selling 2 of type 24 allocation=0 for price 119.52935939962765
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 96.6982)) at auction 5 day 4
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-2 119.5294)) at auction 6 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-2 is selling 4 of type 25 allocation=0 for price 168.37905577454893
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-4 168.3791)) at auction 6 day 2
+28/11 16:12:10 FINE classic.DummyAgent|DummyAgent Dummy-2
+inflights((4-4|0)(0-0|0)(2-2|0)(2-2|0)),outflights((2-2|0)(2-2|0)(0-0|0)(4-4|0))
+good hotel((1-0|0)(1-0|0)(2-0|0)(2-0|0)),cheap hotel((3-4|0C)(1-0|0)(0-0|2)(2-0|4))
+wrestling((3-4|0)(0-0|0)(1-2|0)(2-0|0)),amusement((0-0|0)(1-0|0)(0-0|0)(1-0|0)),museum((0-2|0)(0-4|0)(0-0|0)(0-0|0))
+
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-7 is awaiting solver
+28/11 16:12:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11765)
+-------------------------------------------
+Client 1 stays 2 - 3 on good hotel                              score = 1103
+Client 2 stays 3 - 4 on good hotel   E1 day 3                   score = 1225
+Client 3 stays 1 - 2 on good hotel                              score = 1030
+Client 4 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1445
+Client 5 stays 2 - 5 on cheap hotel                    E3 day 4 score = 1027
+Client 6 stays 1 - 3 on good hotel            E2 day 2          score = 1077
+Client 7 stays 4 - 5 on good hotel   E1 day 4                   score = 1065
+Client 8 stays 4 - 5 on good hotel   E1 day 4                   score = 905
+Total score = 8877 utility = 8877 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 185    	Bound: 8162
+-------------------------------------------
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-7 finished solving
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 11 for price 87.0 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 87.0000)) at auction 2 day 4
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 16 for price 53.60898963880563 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 53.6090)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 18 for price 54.30948318028401 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 54.3095)) at auction 4 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-1 118.7527)) at auction 4 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-7 is selling 2 of type 19 allocation=2 for price 155.15196765121993
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 155.1520)) at auction 4 day 4
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-7 is buying 2 of type 21 for price 58.023769233205044 allocation=2 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((2 58.0238)) at auction 5 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-7 is selling 4 of type 22 allocation=0 for price 100.46921761153942
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-4 100.4692)) at auction 5 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-7 is selling 2 of type 26 allocation=0 for price 149.52937397486784
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 149.5294)) at auction 6 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-7 is selling 1 of type 27 allocation=1 for price 145.34619964071769
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-1 145.3462)) at auction 6 day 4
+28/11 16:12:10 FINE classic.DummyAgent|DummyAgent Dummy-7
+inflights((3-3|0)(2-2|0)(1-1|0)(2-2|0)),outflights((1-1|0)(3-3|0)(1-1|0)(3-3|0))
+good hotel((0-0|0)(1-0|1)(1-0|1)(1-0|0)),cheap hotel((3-0|0C)(3-0|3)(1-0|1)(2-0|3))
+wrestling((1-0|0)(0-0|0)(1-0|0)(2-4|0)),amusement((0-0|0)(2-0|0)(0-4|0)(0-0|0)),museum((0-0|0)(0-0|0)(0-2|0)(1-2|0))
+
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-3 is awaiting solver
+28/11 16:12:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12096)
+-------------------------------------------
+Client 1 stays 1 - 4 on good hotel   E1 day 1 E2 day 2 E3 day 3 score = 1391
+Client 2 stays 4 - 5 on good hotel   E1 day 4                   score = 1258
+Client 3 stays 2 - 5 on cheap hotel  E1 day 2 E2 day 3 E3 day 4 score = 1131
+Client 4 stays 3 - 5 on cheap hotel  E1 day 3 E2 day 4          score = 1199
+Client 5 stays 1 - 2 on good hotel                              score = 765
+Client 6 stays 4 - 5 on cheap hotel                             score = 700
+Client 7 stays 1 - 3 on good hotel                              score = 916
+Client 8 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1158
+Total score = 8518 utility = 8518 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 221    	Bound: 7580
+-------------------------------------------
+28/11 16:12:10 FINEST classic.DummyAgent|Agent Dummy-3 finished solving
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 10 for price 131.0 allocation=2 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 131.0000)) at auction 2 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 3 of type 11 for price 115.0 allocation=3 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((3 115.0000)) at auction 2 day 4
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 16 for price 56.763178467748624 allocation=2 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 56.7632)) at auction 4 day 1
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-3 is selling 1 of type 17 allocation=1 for price 99.51071995956792
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 99.5107)) at auction 4 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 18 for price 55.508569159553254 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 55.5086)) at auction 4 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 19 for price 58.7662774627354 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 58.7663)) at auction 4 day 4
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 21 for price 54.39109572530935 allocation=2 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 54.3911)) at auction 5 day 2
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-3 is selling 3 of type 22 allocation=1 for price 171.59731974235015
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 171.5973)) at auction 5 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-3 is selling 3 of type 23 allocation=1 for price 141.51221438845363
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 141.5122)) at auction 5 day 4
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 26 for price 54.812979643812014 allocation=1 own=0
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 54.8130)) at auction 6 day 3
+28/11 16:12:10 INFO classic.DummyAgent|Agent Dummy-3 is selling 1 of type 27 allocation=1 for price 136.20369707911644
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 53.9943)) at auction 6 day 3
+28/11 16:12:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 136.2037)) at auction 6 day 4
+28/11 16:12:10 FINE classic.DummyAgent|DummyAgent Dummy-3
+inflights((4-4|0)(1-1|0)(1-1|0)(2-2|0)),outflights((1-1|0)(2-2|0)(1-1|0)(4-4|0))
+good hotel((0-0|0)(1-0|1)(2-0|1)(3-0|1)),cheap hotel((4-0|0C)(3-0|3)(1-0|2)(1-0|3))
+wrestling((2-0|0)(1-2|0)(1-0|0)(1-0|0)),amusement((0-0|0)(2-0|0)(1-4|0)(1-4|0)),museum((0-0|0)(0-0|0)(1-0|0)(1-2|0))
+
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-2 is awaiting solver
+28/11 16:13:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11973)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel   E1 day 1                   score = 1163
+Client 2 stays 1 - 3 on good hotel   E1 day 1                   score = 1138
+Client 3 stays 3 - 5 on good hotel   E1 day 3 E2 day 4          score = 1103
+Client 4 stays 3 - 5 on good hotel   E1 day 3 E2 day 4          score = 1236
+Client 5 stays 4 - 5 on cheap hotel                             score = 800
+Client 6 stays 1 - 5 on cheap hotel  E1 day 1 E2 day 2 E3 day 3 score = 1309
+Client 7 stays 1 - 2 on good hotel   E1 day 1                   score = 861
+Client 8 stays 4 - 5 on cheap hotel                             score = 700
+Total score = 8310 utility = 8310 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 275    	Bound: 7650
+-------------------------------------------
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-2 finished solving
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 7 for price 1000.0 allocation=5 own=4
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 1000.0000)) at auction 1 day 5
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 3 of type 11 for price 87.0 allocation=3 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((3 87.0000)) at auction 2 day 4
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 13 for price 171.0 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 171.0000)) at auction 3 day 2
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 21 for price 55.06411125516247 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 55.0641)) at auction 5 day 2
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 23 for price 66.81180952892743 allocation=2 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 66.8118)) at auction 5 day 4
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-2 is selling 2 of type 24 allocation=0 for price 133.45326684635103
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 58.3755)) at auction 5 day 4
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-2 133.4533)) at auction 6 day 1
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 131.2546)) at auction 5 day 4
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-2 is selling 4 of type 25 allocation=0 for price 160.74335937249407
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-2 93.8846)) at auction 6 day 1
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-4 160.7434)) at auction 6 day 2
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-4 122.4727)) at auction 6 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 26 for price 66.21449941699089 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 135.9995)) at auction 6 day 1
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 66.2145)) at auction 6 day 3
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-4 104.1034)) at auction 6 day 2
+28/11 16:13:10 FINE classic.DummyAgent|DummyAgent Dummy-2
+inflights((4-4|0)(0-0|0)(2-2|0)(2-2|0)),outflights((2-2|0)(1-2|0)(0-0|0)(5-5|0))
+good hotel((1-0|1)(1-0|1)(1-0|2)(3-0|2)),cheap hotel((3-4|0C)(1-0|0)(2-0|2)(2-4|0C))
+wrestling((4-4|0)(0-0|0)(2-2|0)(0-0|0)),amusement((0-0|0)(1-0|0)(0-0|0)(2-0|0)),museum((0-2|0)(0-4|0)(1-0|0)(0-0|0))
+
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 139.8165)) at auction 6 day 2
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-6 is awaiting solver
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-3 142.4526)) at auction 6 day 3
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 59.5770)) at auction 6 day 3
+28/11 16:13:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12014)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel                              score = 1110
+Client 2 stays 1 - 3 on good hotel                              score = 1083
+Client 3 stays 1 - 3 on good hotel   E1 day 1                   score = 1273
+Client 4 stays 2 - 4 on good hotel   E1 day 2 E2 day 3          score = 1342
+Client 5 stays 1 - 3 on cheap hotel  E1 day 1                   score = 1023
+Client 6 stays 1 - 2 on good hotel   E1 day 1                   score = 1061
+Client 7 stays 3 - 5 on good hotel   E1 day 3 E2 day 4          score = 1327
+Client 8 stays 2 - 4 on cheap hotel  E1 day 2                   score = 1048
+Total score = 9267 utility = 9267 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 196    	Bound: 8672
+-------------------------------------------
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 63.2925)) at auction 6 day 3
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-6 finished solving
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 140.7083)) at auction 6 day 3
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 6 for price 1000.0 allocation=2 own=1
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 112.4671)) at auction 6 day 3
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 1000.0000)) at auction 1 day 4
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 3 of type 16 for price 56.739329967754834 allocation=3 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 56.7393)) at auction 4 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 17 allocation=2 for price 99.71470866902321
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 99.7147)) at auction 4 day 2
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 18 for price 63.03718077827607 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 63.0372)) at auction 4 day 3
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 110.2991)) at auction 4 day 3
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-6 is selling 4 of type 20 allocation=0 for price 119.16801658650863
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 63.8747)) at auction 4 day 3
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-4 119.1680)) at auction 5 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 22 for price 61.202924992834966 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-3 151.0820)) at auction 4 day 3
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 61.2029)) at auction 5 day 3
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 62.1200)) at auction 4 day 3
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 23 for price 62.49301627200092 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 62.8459)) at auction 4 day 3
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 62.4930)) at auction 5 day 4
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 163.2861)) at auction 5 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 24 allocation=0 for price 88.11272686349743
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 128.2760)) at auction 5 day 1
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 88.1127)) at auction 6 day 1
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-4 93.2948)) at auction 5 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 25 allocation=0 for price 98.05066385482024
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 58.3190)) at auction 5 day 3
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 98.0507)) at auction 6 day 2
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 116.1067)) at auction 5 day 3
+28/11 16:13:10 FINE classic.DummyAgent|DummyAgent Dummy-6
+inflights((5-5|0)(2-2|0)(1-1|0)(0-0|0)),outflights((2-2|0)(3-3|0)(2-2|0)(1-2|0))
+good hotel((1-0|4)(2-0|3)(1-0|1)(0-0|1)),cheap hotel((4-4|0C)(3-0|3)(2-0|2)(1-0|0C))
+wrestling((3-0|0)(2-4|0)(1-0|0)(0-0|0)),amusement((0-4|0)(0-0|0)(1-0|0)(1-0|0)),museum((0-2|0)(0-2|0)(0-0|0)(0-0|0))
+
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 66.2252)) at auction 5 day 3
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-5 is awaiting solver
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-4 130.1100)) at auction 5 day 3
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 65.5437)) at auction 5 day 4
+28/11 16:13:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11878)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel   E1 day 1                   score = 1325
+Client 2 stays 4 - 5 on good hotel                              score = 1079
+Client 3 stays 3 - 4 on good hotel                              score = 1114
+Client 4 stays 1 - 3 on cheap hotel           E2 day 2          score = 1168
+Client 5 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1396
+Client 6 stays 2 - 4 on cheap hotel  E1 day 2                   score = 1093
+Client 7 stays 4 - 5 on cheap hotel                             score = 800
+Client 8 stays 4 - 5 on cheap hotel                             score = 800
+Total score = 8775 utility = 8775 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 211    	Bound: 8879
+-------------------------------------------
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-5 finished solving
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 11 for price 82.0 allocation=2 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 82.0000)) at auction 2 day 4
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 16 for price 58.258787934030806 allocation=2 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 58.2588)) at auction 4 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-5 is selling 1 of type 17 allocation=1 for price 98.48949847500813
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-1 98.4895)) at auction 4 day 2
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 64.4058)) at auction 4 day 2
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-5 is selling 2 of type 20 allocation=0 for price 101.36165704666217
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 152.2963)) at auction 4 day 2
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 101.3617)) at auction 5 day 1
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-1 137.5653)) at auction 4 day 2
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-5 is selling 2 of type 21 allocation=2 for price 144.2005167922137
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 116.4563)) at auction 4 day 2
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 144.2005)) at auction 5 day 2
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 59.1598)) at auction 5 day 2
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-5 is selling 4 of type 27 allocation=0 for price 152.6648659096128
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 66.7580)) at auction 5 day 2
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-4 152.6649)) at auction 6 day 4
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 66.6458)) at auction 5 day 2
+28/11 16:13:10 FINE classic.DummyAgent|DummyAgent Dummy-5
+inflights((3-3|0)(1-1|0)(1-1|0)(3-3|0)),outflights((1-1|0)(2-2|0)(2-2|0)(3-3|0))
+good hotel((1-0|1)(2-0|2)(1-0|1)(2-0|1)),cheap hotel((2-3|0C)(1-0|1)(1-0|1)(1-3|0C))
+wrestling((2-0|0)(1-2|0)(0-0|0)(0-0|0)),amusement((0-2|0)(2-4|0)(0-0|0)(0-0|0)),museum((0-0|0)(0-0|0)(0-0|0)(0-4|0))
+
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 66.0078)) at auction 5 day 2
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-4 is awaiting solver
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 128.5702)) at auction 5 day 2
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((2 60.9567)) at auction 5 day 2
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 103.1649)) at auction 6 day 4
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-4 127.2753)) at auction 6 day 4
+28/11 16:13:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12359)
+-------------------------------------------
+Client 1 stays 1 - 4 on good hotel   E1 day 1 E2 day 2 E3 day 3 score = 1302
+Client 2 stays 1 - 4 on good hotel   E1 day 1 E2 day 2 E3 day 3 score = 1312
+Client 3 stays 3 - 5 on cheap hotel  E1 day 3 E2 day 4          score = 1128
+Client 4 stays 1 - 3 on good hotel   E1 day 1                   score = 1241
+Client 5 stays 1 - 3 on cheap hotel                             score = 1000
+Client 6 stays 1 - 3 on cheap hotel                             score = 900
+Client 7 stays 1 - 2 on good hotel                              score = 927
+Client 8 stays 4 - 5 on good hotel   E1 day 4                   score = 1011
+Total score = 8821 utility = 8821 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 245    	Bound: 8322
+-------------------------------------------
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-1 131.6933)) at auction 6 day 4
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-4 finished solving
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 7 for price 1000.0 allocation=2 own=1
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 1000.0000)) at auction 1 day 5
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 11 for price 73.0 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 73.0000)) at auction 2 day 4
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-4 is buying 3 of type 16 for price 57.87192749383932 allocation=3 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-1 158.1477)) at auction 4 day 1
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 57.8719)) at auction 4 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-4 is selling 3 of type 18 allocation=1 for price 146.01121730191758
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 61.3035)) at auction 4 day 1
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-3 146.0112)) at auction 4 day 3
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 65.2578)) at auction 4 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-4 is selling 1 of type 19 allocation=1 for price 99.24957195238171
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 57.6318)) at auction 4 day 1
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 99.2496)) at auction 4 day 4
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 58.7918)) at auction 4 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-4 is buying 2 of type 21 for price 57.39772978681769 allocation=2 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 57.3977)) at auction 5 day 2
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 65.6870)) at auction 4 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 23 for price 57.75149053109139 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 57.7515)) at auction 5 day 4
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 60.4383)) at auction 4 day 4
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-4 is selling 4 of type 24 allocation=0 for price 135.09884869005026
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 91.5466)) at auction 4 day 4
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-4 135.0988)) at auction 6 day 1
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 135.1034)) at auction 4 day 4
+28/11 16:13:10 FINE classic.DummyAgent|DummyAgent Dummy-4
+inflights((6-6|0)(0-0|0)(1-1|0)(1-1|0)),outflights((1-2|0)(3-3|0)(2-2|0)(2-2|0))
+good hotel((2-0|5)(2-0|3)(1-0|2)(1-0|0)),cheap hotel((4-5|0C)(3-0|3)(2-0|2)(1-1|0C))
+wrestling((3-0|0)(0-0|0)(1-4|0)(1-2|0)),amusement((0-0|0)(2-0|0)(0-0|0)(1-0|0)),museum((0-4|0)(0-0|0)(2-2|0)(0-0|0))
+
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-3 is awaiting solver
+28/11 16:13:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12096)
+-------------------------------------------
+Client 1 stays 1 - 4 on good hotel   E1 day 1 E2 day 2 E3 day 3 score = 1391
+Client 2 stays 4 - 5 on good hotel   E1 day 4                   score = 1258
+Client 3 stays 2 - 5 on cheap hotel  E1 day 2 E2 day 3 E3 day 4 score = 1131
+Client 4 stays 3 - 5 on good hotel   E1 day 3 E2 day 4          score = 1276
+Client 5 stays 4 - 5 on good hotel                              score = 765
+Client 6 stays 1 - 2 on good hotel                              score = 814
+Client 7 stays 1 - 3 on good hotel                              score = 916
+Client 8 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1158
+Total score = 8709 utility = 8709 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 222    	Bound: 7769
+-------------------------------------------
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-3 finished solving
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 16 for price 55.16596040299183 allocation=2 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 55.1660)) at auction 4 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-3 is selling 1 of type 17 allocation=1 for price 128.5676819382697
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 128.5677)) at auction 4 day 2
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 18 for price 59.02246997068471 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 59.0225)) at auction 4 day 3
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 19 for price 56.998760262727316 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 56.9988)) at auction 4 day 4
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 21 for price 57.80629056823188 allocation=2 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 57.8063)) at auction 5 day 2
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-3 is selling 3 of type 22 allocation=1 for price 163.4680971118105
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 163.4681)) at auction 5 day 3
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-3 is selling 3 of type 23 allocation=1 for price 118.83687003216464
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 118.8369)) at auction 5 day 4
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 60.5543)) at auction 5 day 4
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 26 for price 56.4464555993253 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 56.4465)) at auction 6 day 3
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-3 is selling 1 of type 27 allocation=1 for price 134.24380782365324
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 134.2438)) at auction 6 day 4
+28/11 16:13:10 FINE classic.DummyAgent|DummyAgent Dummy-3
+inflights((4-4|0)(1-1|0)(1-1|0)(2-2|0)),outflights((1-1|0)(2-2|0)(1-1|0)(4-4|0))
+good hotel((0-0|0)(1-0|1)(1-0|2)(1-0|3)),cheap hotel((4-0|0C)(3-0|3)(2-0|2)(3-3|0C))
+wrestling((2-0|0)(1-2|0)(1-0|0)(1-0|0)),amusement((0-0|0)(2-0|0)(1-4|0)(1-4|0)),museum((0-0|0)(0-0|0)(1-0|0)(1-2|0))
+
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-1 is awaiting solver
+28/11 16:13:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11688)
+-------------------------------------------
+Client 1 stays 1 - 3 on good hotel   E1 day 1                   score = 1104
+Client 2 stays 1 - 3 on good hotel   E1 day 1                   score = 1092
+Client 3 stays 2 - 4 on cheap hotel                             score = 800
+Client 4 stays 4 - 5 on good hotel                              score = 662
+Client 5 stays 1 - 2 on good hotel   E1 day 1                   score = 1024
+Client 6 stays 4 - 5 on cheap hotel                             score = 800
+Client 7 stays 1 - 2 on good hotel                              score = 790
+Client 8 stays 2 - 5 on cheap hotel  E1 day 2 E2 day 3          score = 1241
+Total score = 7513 utility = 7513 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 179    	Bound: 6933
+-------------------------------------------
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-1 finished solving
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 1 for price 1000.0 allocation=2 own=1
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 1000.0000)) at auction 0 day 2
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 10 for price 124.0 allocation=2 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 124.0000)) at auction 2 day 3
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-1 is buying 2 of type 11 for price 102.0 allocation=2 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((2 102.0000)) at auction 2 day 4
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-1 is selling 1 of type 16 allocation=3 for price 122.46647650588349
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-1 122.4665)) at auction 4 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 17 for price 62.791985007104145 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 62.7920)) at auction 4 day 2
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-1 is selling 2 of type 18 allocation=0 for price 132.37442594793947
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 132.3744)) at auction 4 day 3
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-1 is selling 2 of type 20 allocation=0 for price 128.2266878164142
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 128.2267)) at auction 5 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 22 for price 61.034169667036196 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 61.0342)) at auction 5 day 3
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-1 is selling 4 of type 26 allocation=0 for price 112.90323998924009
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-4 112.9032)) at auction 6 day 3
+28/11 16:13:10 FINE classic.DummyAgent|DummyAgent Dummy-1
+inflights((4-6|0)(2-2|0)(0-0|0)(2-2|0)),outflights((2-2|0)(2-2|0)(1-1|0)(3-3|0))
+good hotel((0-0|2)(2-0|2)(2-0|1)(2-0|1)),cheap hotel((4-0|0C)(2-0|3)(0-0|1)(1-2|0C))
+wrestling((3-4|0)(1-0|0)(0-2|0)(0-0|0)),amusement((0-2|0)(0-0|0)(1-0|0)(0-0|0)),museum((0-0|0)(0-0|0)(0-4|0)(0-0|0))
+
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-7 is awaiting solver
+28/11 16:13:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11765)
+-------------------------------------------
+Client 1 stays 2 - 3 on good hotel                              score = 1103
+Client 2 stays 3 - 5 on good hotel   E1 day 3                   score = 1125
+Client 3 stays 1 - 2 on good hotel                              score = 1030
+Client 4 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1445
+Client 5 stays 2 - 4 on cheap hotel                             score = 1000
+Client 6 stays 1 - 3 on good hotel            E2 day 2          score = 1077
+Client 7 stays 4 - 5 on cheap hotel  E1 day 4                   score = 952
+Client 8 stays 4 - 5 on cheap hotel  E1 day 4                   score = 769
+Total score = 8501 utility = 8501 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 185    	Bound: 8050
+-------------------------------------------
+28/11 16:13:10 FINEST classic.DummyAgent|Agent Dummy-7 finished solving
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-7 is buying 2 of type 11 for price 99.0 allocation=2 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((2 99.0000)) at auction 2 day 4
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 16 for price 61.236205017452455 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 61.2362)) at auction 4 day 1
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 18 for price 63.335113969362254 allocation=1 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 63.3351)) at auction 4 day 3
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-7 is selling 2 of type 19 allocation=2 for price 121.48620363445676
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 121.4862)) at auction 4 day 4
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-7 is buying 2 of type 21 for price 58.69617744420218 allocation=2 own=0
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((2 58.6962)) at auction 5 day 2
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-7 is selling 4 of type 22 allocation=0 for price 90.97157121569433
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-4 90.9716)) at auction 5 day 3
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-7 is selling 2 of type 26 allocation=0 for price 103.88161300499635
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 103.8816)) at auction 6 day 3
+28/11 16:13:10 INFO classic.DummyAgent|Agent Dummy-7 is selling 2 of type 27 allocation=0 for price 146.74853061862817
+28/11 16:13:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 146.7485)) at auction 6 day 4
+28/11 16:13:10 FINE classic.DummyAgent|DummyAgent Dummy-7
+inflights((3-3|0)(2-2|0)(1-1|0)(2-2|0)),outflights((1-1|0)(3-3|0)(1-1|0)(3-3|0))
+good hotel((0-0|0)(1-0|1)(1-0|1)(2-0|1)),cheap hotel((3-0|0C)(3-0|3)(1-0|1)(1-3|0C))
+wrestling((1-0|0)(0-0|0)(1-0|0)(2-4|0)),amusement((0-0|0)(2-0|0)(0-4|0)(0-0|0)),museum((0-0|0)(0-0|0)(0-2|0)(0-2|0))
+
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-5 is awaiting solver
+28/11 16:14:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11878)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel   E1 day 1                   score = 1325
+Client 2 stays 4 - 5 on good hotel                              score = 1079
+Client 3 stays 3 - 4 on good hotel                              score = 1114
+Client 4 stays 1 - 3 on good hotel            E2 day 2          score = 1294
+Client 5 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1396
+Client 6 stays 2 - 4 on cheap hotel  E1 day 2                   score = 1093
+Client 7 stays 4 - 5 on good hotel                              score = 868
+Client 8 stays 4 - 5 on cheap hotel                             score = 800
+Total score = 8969 utility = 8969 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 198    	Bound: 8977
+-------------------------------------------
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-5 finished solving
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 13 for price 213.0 allocation=2 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 213.0000)) at auction 3 day 2
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-5 is buying 2 of type 16 for price 62.32639487439293 allocation=2 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 62.3264)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-5 is selling 1 of type 17 allocation=1 for price 115.39297891130622
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-1 115.3930)) at auction 4 day 2
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-5 is selling 2 of type 20 allocation=0 for price 101.33477294741812
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 67.4209)) at auction 4 day 2
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 101.3348)) at auction 5 day 1
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 97.9837)) at auction 4 day 2
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-5 is selling 2 of type 21 allocation=2 for price 95.56932212763292
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-1 100.9558)) at auction 4 day 2
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 95.5693)) at auction 5 day 2
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 122.1459)) at auction 4 day 2
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-5 is selling 4 of type 27 allocation=0 for price 87.95097432712018
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 73.3796)) at auction 5 day 2
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-4 87.9510)) at auction 6 day 4
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 71.7797)) at auction 5 day 2
+28/11 16:14:10 FINE classic.DummyAgent|DummyAgent Dummy-5
+inflights((3-3|0)(1-1|0)(1-1|0)(3-3|0)),outflights((1-1|0)(2-2|0)(2-2|0)(3-3|0))
+good hotel((0-0|1)(1-0|2)(1-0|1)(1-0|2)),cheap hotel((3-3|0C)(2-0|0)(1-1|0C)(2-3|0C))
+wrestling((2-0|0)(1-2|0)(0-0|0)(0-0|0)),amusement((0-2|0)(2-4|0)(0-0|0)(0-0|0)),museum((0-0|0)(0-0|0)(0-0|0)(0-4|0))
+
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 73.1383)) at auction 5 day 2
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-7 is awaiting solver
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 141.0928)) at auction 5 day 2
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((2 57.5463)) at auction 5 day 2
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 85.6169)) at auction 6 day 4
+28/11 16:14:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11765)
+-------------------------------------------
+Client 1 stays 2 - 3 on good hotel                              score = 1103
+Client 2 stays 3 - 5 on good hotel   E1 day 3                   score = 1125
+Client 3 stays 1 - 2 on good hotel                              score = 1030
+Client 4 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1445
+Client 5 stays 2 - 4 on cheap hotel                             score = 1000
+Client 6 stays 1 - 3 on good hotel            E2 day 2          score = 1077
+Client 7 stays 4 - 5 on good hotel   E1 day 4                   score = 1065
+Client 8 stays 4 - 5 on cheap hotel  E1 day 4                   score = 769
+Total score = 8614 utility = 8614 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 174    	Bound: 8161
+-------------------------------------------
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-4 86.6440)) at auction 6 day 4
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-7 finished solving
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 16 for price 65.09026232642415 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 135.0238)) at auction 6 day 4
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 65.0903)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-7 is buying 1 of type 18 for price 73.96145410469207 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 73.9615)) at auction 4 day 3
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 102.2509)) at auction 4 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-7 is selling 2 of type 19 allocation=2 for price 88.5155727890112
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 61.8308)) at auction 4 day 3
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 88.5156)) at auction 4 day 4
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-3 82.8105)) at auction 4 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-7 is buying 2 of type 21 for price 70.53315920194716 allocation=2 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 73.0978)) at auction 4 day 3
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((2 70.5332)) at auction 5 day 2
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 72.9160)) at auction 4 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-7 is selling 4 of type 22 allocation=0 for price 146.97665248488624
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 70.5117)) at auction 4 day 4
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-4 146.9767)) at auction 5 day 3
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 129.4677)) at auction 4 day 4
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-7 is selling 2 of type 26 allocation=0 for price 135.98355709561181
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 93.0182)) at auction 4 day 4
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 135.9836)) at auction 6 day 3
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 66.0664)) at auction 5 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-7 is selling 2 of type 27 allocation=0 for price 84.40578276866043
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 134.1073)) at auction 5 day 3
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 84.4058)) at auction 6 day 4
+28/11 16:14:10 FINE classic.DummyAgent|DummyAgent Dummy-7
+inflights((3-3|0)(2-2|0)(1-1|0)(2-2|0)),outflights((1-1|0)(3-3|0)(1-1|0)(3-3|0))
+good hotel((0-0|0)(1-0|1)(1-0|1)(1-0|2)),cheap hotel((3-0|0C)(3-0|3)(1-1|0C)(2-3|0C))
+wrestling((1-0|0)(0-0|0)(1-0|0)(2-4|0)),amusement((0-0|0)(2-0|0)(0-4|0)(0-0|0)),museum((0-0|0)(0-0|0)(0-2|0)(0-2|0))
+
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 67.6133)) at auction 5 day 3
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-6 is awaiting solver
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-4 143.7061)) at auction 5 day 3
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-4 128.7498)) at auction 6 day 3
+28/11 16:14:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12014)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel                              score = 1110
+Client 2 stays 1 - 3 on good hotel                              score = 1083
+Client 3 stays 1 - 3 on good hotel   E1 day 1                   score = 1273
+Client 4 stays 2 - 4 on good hotel   E1 day 2 E2 day 3          score = 1342
+Client 5 stays 1 - 4 on cheap hotel  E1 day 1                   score = 1123
+Client 6 stays 1 - 3 on cheap hotel  E1 day 1                   score = 1058
+Client 7 stays 3 - 5 on good hotel   E1 day 3 E2 day 4          score = 1327
+Client 8 stays 2 - 4 on cheap hotel  E1 day 2                   score = 1048
+Total score = 9364 utility = 9364 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 230    	Bound: 8764
+-------------------------------------------
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-6 finished solving
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 61.7698)) at auction 6 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 6 for price 1000.0 allocation=3 own=2
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 60.6313)) at auction 6 day 3
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 1000.0000)) at auction 1 day 4
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((-2 126.2605)) at auction 6 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 2 of type 10 for price 124.0 allocation=2 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((2 124.0000)) at auction 2 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 3 of type 16 for price 63.97560099798527 allocation=3 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 63.9756)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 17 allocation=2 for price 92.4161364825099
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 92.4161)) at auction 4 day 2
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 18 for price 66.15086196873989 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 66.1509)) at auction 4 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-6 is selling 4 of type 20 allocation=0 for price 144.88144292880074
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-4 144.8814)) at auction 5 day 1
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 92.1280)) at auction 5 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 22 for price 67.82084300757496 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((-2 93.1356)) at auction 5 day 1
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 67.8208)) at auction 5 day 3
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-4 136.9190)) at auction 5 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-6 is buying 1 of type 23 for price 66.86808871117476 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 66.8681)) at auction 5 day 4
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 67.9470)) at auction 5 day 4
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 24 allocation=0 for price 105.131960499006
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 107.7058)) at auction 5 day 4
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 105.1320)) at auction 6 day 1
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 64.5106)) at auction 5 day 4
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-6 is selling 2 of type 25 allocation=0 for price 146.79665112566886
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((1 66.7811)) at auction 5 day 4
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 146.7967)) at auction 6 day 2
+28/11 16:14:10 FINE classic.DummyAgent|DummyAgent Dummy-6
+inflights((5-5|0)(2-2|0)(1-1|0)(0-0|0)),outflights((1-2|0)(3-3|0)(3-3|0)(1-2|0))
+good hotel((2-0|4)(3-0|3)(2-0|1)(0-0|1)),cheap hotel((3-4|0C)(3-0|3)(2-2|0C)(1-0|0C))
+wrestling((3-0|0)(2-4|0)(1-0|0)(0-0|0)),amusement((0-4|0)(0-0|0)(1-0|0)(1-0|0)),museum((0-2|0)(0-2|0)(0-0|0)(0-0|0))
+
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-2 99.2296)) at auction 6 day 1
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-4 is awaiting solver
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-4 119.1752)) at auction 6 day 1
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 105.9189)) at auction 6 day 1
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-4 132.5706)) at auction 6 day 2
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((-2 110.2784)) at auction 6 day 2
+28/11 16:14:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12359)
+-------------------------------------------
+Client 1 stays 1 - 4 on good hotel   E1 day 1 E2 day 2 E3 day 3 score = 1302
+Client 2 stays 1 - 4 on good hotel   E1 day 1 E2 day 2 E3 day 3 score = 1312
+Client 3 stays 3 - 5 on cheap hotel  E1 day 3 E2 day 4          score = 1128
+Client 4 stays 1 - 3 on good hotel   E1 day 1                   score = 1241
+Client 5 stays 1 - 3 on cheap hotel                             score = 1000
+Client 6 stays 1 - 3 on cheap hotel                             score = 900
+Client 7 stays 1 - 2 on good hotel                              score = 927
+Client 8 stays 4 - 5 on good hotel   E1 day 4                   score = 1011
+Total score = 8821 utility = 8821 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 250    	Bound: 8690
+-------------------------------------------
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-4 finished solving
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-4 is buying 3 of type 16 for price 74.69518839017363 allocation=3 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 74.6952)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-1 98.8296)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-4 is selling 3 of type 18 allocation=1 for price 141.77743976120036
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 60.2235)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-3 141.7774)) at auction 4 day 3
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((3 74.5881)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-4 is selling 1 of type 19 allocation=1 for price 120.34278337182545
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-5 placed bid ((2 61.7097)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-1 120.3428)) at auction 4 day 4
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-6 placed bid ((3 58.3869)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-4 is buying 2 of type 21 for price 62.59472364876498 allocation=2 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-7 placed bid ((1 60.9171)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((2 62.5947)) at auction 5 day 2
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-4 is buying 1 of type 23 for price 73.94321748187772 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((1 73.9432)) at auction 5 day 4
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-4 is selling 4 of type 24 allocation=0 for price 129.88274417719393
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-4 placed bid ((-4 129.8827)) at auction 6 day 1
+28/11 16:14:10 FINE classic.DummyAgent|DummyAgent Dummy-4
+inflights((6-6|0)(0-0|0)(1-1|0)(1-1|0)),outflights((1-2|0)(3-3|0)(2-2|0)(2-2|0))
+good hotel((2-0|5)(2-0|3)(1-0|2)(1-0|1)),cheap hotel((4-5|0C)(3-0|3)(2-2|0C)(1-1|0C))
+wrestling((3-0|0)(0-0|0)(1-4|0)(1-2|0)),amusement((0-0|0)(2-0|0)(0-0|0)(1-0|0)),museum((0-4|0)(0-0|0)(2-2|0)(0-0|0))
+
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-3 is awaiting solver
+28/11 16:14:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 12096)
+-------------------------------------------
+Client 1 stays 1 - 4 on good hotel   E1 day 1 E2 day 2 E3 day 3 score = 1391
+Client 2 stays 4 - 5 on good hotel   E1 day 4                   score = 1258
+Client 3 stays 2 - 5 on cheap hotel  E1 day 2 E2 day 3 E3 day 4 score = 1131
+Client 4 stays 3 - 5 on good hotel   E1 day 3 E2 day 4          score = 1276
+Client 5 stays 4 - 5 on good hotel                              score = 765
+Client 6 stays 1 - 2 on good hotel                              score = 814
+Client 7 stays 1 - 3 on good hotel                              score = 916
+Client 8 stays 1 - 3 on good hotel   E1 day 1 E2 day 2          score = 1158
+Total score = 8709 utility = 8709 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 221    	Bound: 7767
+-------------------------------------------
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-3 finished solving
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 16 for price 60.57373245332506 allocation=2 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 60.5737)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-3 is selling 1 of type 17 allocation=1 for price 99.46701991185833
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 99.4670)) at auction 4 day 2
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 18 for price 59.521413421580974 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 59.5214)) at auction 4 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 19 for price 72.21054030092488 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 72.2105)) at auction 4 day 4
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 2 of type 21 for price 74.22985894457034 allocation=2 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((2 74.2299)) at auction 5 day 2
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-3 is selling 3 of type 22 allocation=1 for price 103.27128313033353
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 103.2713)) at auction 5 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-3 is selling 3 of type 23 allocation=1 for price 123.53043197690343
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-3 123.5304)) at auction 5 day 4
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-3 is buying 1 of type 26 for price 73.30692710504918 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((1 73.3069)) at auction 6 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-3 is selling 1 of type 27 allocation=1 for price 146.60314842086535
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-3 placed bid ((-1 146.6031)) at auction 6 day 4
+28/11 16:14:10 FINE classic.DummyAgent|DummyAgent Dummy-3
+inflights((4-4|0)(1-1|0)(1-1|0)(2-2|0)),outflights((1-1|0)(2-2|0)(1-1|0)(4-4|0))
+good hotel((0-0|0)(1-0|1)(1-0|2)(1-0|3)),cheap hotel((4-0|0C)(3-0|3)(2-2|0C)(3-3|0C))
+wrestling((2-0|0)(1-2|0)(1-0|0)(1-0|0)),amusement((0-0|0)(2-0|0)(1-4|0)(1-4|0)),museum((0-0|0)(0-0|0)(1-0|0)(1-2|0))
+
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-2 is awaiting solver
+28/11 16:14:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11973)
+-------------------------------------------
+Client 1 stays 1 - 2 on good hotel   E1 day 1                   score = 1163
+Client 2 stays 1 - 3 on good hotel   E1 day 1                   score = 1138
+Client 3 stays 1 - 3 on cheap hotel  E1 day 1 E2 day 2          score = 1201
+Client 4 stays 3 - 5 on good hotel   E1 day 3 E2 day 4          score = 1236
+Client 5 stays 3 - 5 on good hotel                              score = 963
+Client 6 stays 4 - 5 on good hotel   E1 day 4                   score = 1175
+Client 7 stays 4 - 5 on cheap hotel  E1 day 4                   score = 927
+Client 8 stays 1 - 2 on cheap hotel                             score = 700
+Total score = 8503 utility = 8503 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 217    	Bound: 8530
+-------------------------------------------
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-2 finished solving
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 8 for price 49.0 allocation=2 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 49.0000)) at auction 2 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-2 is selling 1 of type 16 allocation=3 for price 125.3624376295977
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-1 125.3624)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-2 is selling 1 of type 18 allocation=1 for price 110.94786250311071
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-1 110.9479)) at auction 4 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 2 of type 19 for price 67.79273827028086 allocation=2 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((2 67.7927)) at auction 4 day 4
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 21 for price 61.837039582305586 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 61.8370)) at auction 5 day 2
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-2 is buying 1 of type 23 for price 71.2563419782771 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((1 71.2563)) at auction 5 day 4
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-2 is selling 2 of type 24 allocation=0 for price 137.46051314986414
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-2 137.4605)) at auction 6 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-2 is selling 4 of type 25 allocation=0 for price 140.10293347854218
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-4 140.1029)) at auction 6 day 2
+28/11 16:14:10 FINE classic.DummyAgent|DummyAgent Dummy-2
+inflights((4-4|0)(0-0|0)(2-2|0)(2-2|0)),outflights((2-2|0)(2-2|0)(0-0|0)(4-5|0))
+good hotel((2-0|1)(1-0|1)(0-0|2)(1-0|3)),cheap hotel((2-4|0C)(1-0|1)(2-2|0C)(3-4|0C))
+wrestling((3-4|0)(0-0|0)(1-2|0)(2-0|0)),amusement((0-0|0)(1-0|0)(0-0|0)(1-0|0)),museum((0-2|0)(0-4|0)(0-0|0)(0-0|0))
+
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-1 is awaiting solver
+28/11 16:14:10 FINE solver.PriceSolver|
+-------------------------------------------
+Final score    (Best Util: 11688)
+-------------------------------------------
+Client 1 stays 1 - 3 on good hotel   E1 day 1                   score = 1104
+Client 2 stays 1 - 3 on good hotel   E1 day 1                   score = 1092
+Client 3 stays 2 - 4 on cheap hotel                             score = 800
+Client 4 stays 4 - 5 on good hotel                              score = 662
+Client 5 stays 4 - 5 on good hotel   E1 day 4                   score = 824
+Client 6 stays 1 - 2 on good hotel                              score = 745
+Client 7 stays 1 - 2 on good hotel                              score = 790
+Client 8 stays 2 - 5 on good hotel   E1 day 2 E2 day 3          score = 1339
+Total score = 7356 utility = 7356 costs = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 171    	Bound: 6545
+-------------------------------------------
+28/11 16:14:10 FINEST classic.DummyAgent|Agent Dummy-1 finished solving
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-1 is selling 2 of type 16 allocation=2 for price 110.24435466243905
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 110.2444)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 17 for price 72.74963876434666 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-1 131.3465)) at auction 4 day 1
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 72.7496)) at auction 4 day 2
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-1 is selling 2 of type 18 allocation=0 for price 101.18608479156632
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 101.1861)) at auction 4 day 3
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-2 placed bid ((-1 127.6076)) at auction 4 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 19 for price 66.9256360107968 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 66.9256)) at auction 4 day 4
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-1 is selling 2 of type 20 allocation=0 for price 128.9606255778926
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-2 128.9606)) at auction 5 day 1
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-1 is buying 1 of type 22 for price 67.26610668571345 allocation=1 own=0
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((1 67.2661)) at auction 5 day 3
+28/11 16:14:10 INFO classic.DummyAgent|Agent Dummy-1 is selling 4 of type 26 allocation=0 for price 108.53348738548794
+28/11 16:14:10 INFO classic.DummyAgent|agent Dummy-1 placed bid ((-4 108.5335)) at auction 6 day 3
+28/11 16:14:10 FINE classic.DummyAgent|DummyAgent Dummy-1
+inflights((4-6|0)(2-2|0)(0-0|0)(2-2|0)),outflights((2-2|0)(2-2|0)(1-1|0)(3-3|0))
+good hotel((0-0|2)(1-0|2)(1-0|2)(0-0|2)),cheap hotel((4-0|0C)(3-0|3)(1-1|0C)(3-2|0C))
+wrestling((2-4|0)(1-0|0)(0-2|0)(1-0|0)),amusement((0-2|0)(0-0|0)(1-0|0)(0-0|0)),museum((0-0|0)(0-0|0)(0-4|0)(0-0|0))
+
+28/11 16:14:31 WARNING line.LineConnection|info-1: 127.0.0.1 closed connection
+28/11 16:14:31 FINE server.LineServer|info connection info-1 has closed
+28/11 16:14:31 WARNING server.InfoServer|info connection info closed
+28/11 16:14:31 FINEST line.LineConnection|info-1: connection closed from 127.0.0.1

@@ -1,10 +1,492 @@
-21/11 15:06:19 FINE is.InfoServer|Using game path: /Users/renqilei/Documents/GitHubSpace/TAC-UoS-2014-Wukong/TAC/Server/public_html/history
-21/11 15:06:19 SEVERE is.InfoServer|You should register an admin user with the name 'admin'!
+28/11 14:47:50 FINE is.InfoServer|Using game path: /Users/renqilei/Documents/GitHubSpace/TAC-UoS-2014-Wukong/TAC/Server/public_html/history
+28/11 14:47:50 SEVERE is.InfoServer|You should register an admin user with the name 'admin'!
 ************************************************************
 * You should register an admin user with the name 'admin'!
 ************************************************************
 
 
-21/11 15:06:19 INFO is.AppletServer|viewer server started at *:4041
-21/11 15:06:19 SEVERE is.InfoServer|detected existing coming game 1 (1) prior to current time
-21/11 15:06:19 SEVERE is.InfoServer|detected existing coming game -1 (2) prior to current time
+28/11 14:47:50 INFO is.AppletServer|viewer server started at *:4041
+28/11 14:47:50 SEVERE is.InfoServer|detected existing coming game 2 (3) prior to current time
+28/11 14:47:50 SEVERE is.InfoServer|detected existing coming game -1 (4) prior to current time
+28/11 14:56:38 FINE is.InfoServer|new coming game 5 (gameid=-1,tacClassic)
+28/11 14:57:19 FINE is.AppletServer|new viewer: viewer-1
+28/11 14:57:19 SEVERE is.AppletServer|could not parse command from applet se.sics.tac.line.LineConnection@1d01501c: GET /crossdomain.xml HTTP/1.1
+java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at se.sics.tac.log.ISTokenizer.<init>(ISTokenizer.java:100)
+	at se.sics.tac.is.AppletServer.handleAppletCommand(AppletServer.java:251)
+	at se.sics.tac.is.AppletServer.lineRead(AppletServer.java:161)
+	at se.sics.tac.line.LineConnection.doDeliver(LineConnection.java:311)
+	at se.sics.tac.line.LineConnection.deliverLine(LineConnection.java:290)
+	at se.sics.tac.line.LineConnection.access$1400(LineConnection.java:48)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:499)
+28/11 14:57:19 SEVERE is.AppletServer|could not parse command from applet se.sics.tac.line.LineConnection@1d01501c: User-Agent: Mozilla/4.0 (Mac OS X 10.10.1) Java/1.8.0_25
+java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at se.sics.tac.log.ISTokenizer.<init>(ISTokenizer.java:100)
+	at se.sics.tac.is.AppletServer.handleAppletCommand(AppletServer.java:251)
+	at se.sics.tac.is.AppletServer.lineRead(AppletServer.java:161)
+	at se.sics.tac.line.LineConnection.doDeliver(LineConnection.java:311)
+	at se.sics.tac.line.LineConnection.deliverLine(LineConnection.java:290)
+	at se.sics.tac.line.LineConnection.access$1400(LineConnection.java:48)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:499)
+28/11 14:57:19 SEVERE is.AppletServer|could not parse command from applet se.sics.tac.line.LineConnection@1d01501c: Host: 127.0.0.1:4041
+java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at se.sics.tac.log.ISTokenizer.<init>(ISTokenizer.java:100)
+	at se.sics.tac.is.AppletServer.handleAppletCommand(AppletServer.java:251)
+	at se.sics.tac.is.AppletServer.lineRead(AppletServer.java:161)
+	at se.sics.tac.line.LineConnection.doDeliver(LineConnection.java:311)
+	at se.sics.tac.line.LineConnection.deliverLine(LineConnection.java:290)
+	at se.sics.tac.line.LineConnection.access$1400(LineConnection.java:48)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:499)
+28/11 14:57:19 SEVERE is.AppletServer|unknown Applet command from viewer-1: Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+28/11 14:57:19 SEVERE is.AppletServer|could not parse command from applet se.sics.tac.line.LineConnection@1d01501c: Connection: keep-alive
+java.util.NoSuchElementException
+	at java.util.StringTokenizer.nextToken(StringTokenizer.java:349)
+	at se.sics.tac.log.ISTokenizer.<init>(ISTokenizer.java:100)
+	at se.sics.tac.is.AppletServer.handleAppletCommand(AppletServer.java:251)
+	at se.sics.tac.is.AppletServer.lineRead(AppletServer.java:161)
+	at se.sics.tac.line.LineConnection.doDeliver(LineConnection.java:311)
+	at se.sics.tac.line.LineConnection.deliverLine(LineConnection.java:290)
+	at se.sics.tac.line.LineConnection.access$1400(LineConnection.java:48)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:499)
+28/11 14:57:19 SEVERE line.LineConnection|viewer-1: could not send 1417186640,e,could not parse command
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at se.sics.tac.line.LineConnection$LineWriter.run(LineConnection.java:437)
+	at com.botbox.util.PoolThread.handleJobs(PoolThread.java:218)
+	at com.botbox.util.PoolThread.run(PoolThread.java:194)
+28/11 14:57:19 SEVERE line.LineConnection|viewer-1: line reader error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at se.sics.tac.line.LineConnection$LineReader.run(LineConnection.java:498)
+28/11 14:57:19 FINE is.AppletServer|viewer viewer-1 has closed
+28/11 14:57:19 FINEST line.LineConnection|viewer-1: connection closed from 127.0.0.1
+28/11 14:57:19 WARNING line.LineConnection|writer for viewer-1 exiting
+28/11 14:58:59 FINE is.TACStore|>>> Checking competition for game: 5 (3)
+28/11 15:07:59 FINE is.InfoServer|game 3 ended
+28/11 15:08:00 FINEST solver.FastOptimizer|Best Util: 10118
+28/11 15:08:00 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 does not go, score = 0
+Client 2 does not go, score = 0
+Client 3 does not go, score = 0
+Client 4 does not go, score = 0
+Client 5 does not go, score = 0
+Client 6 does not go, score = 0
+Client 7 does not go, score = 0
+Client 8 does not go, score = 0
+Total score = 0
+-------------------------------------------
+Time: 0        	Allocs: 1
+Bnbs: 17    	Bound: 0
+-------------------------------------------
+28/11 15:08:00 FINEST solver.FastOptimizer|Best Util: 10052
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 7949, h = 8000 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 7992, h = 8043 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8018, h = 8069 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8022, h = 8100 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8062, h = 8113 time = 8
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8088, h = 8139 time = 8
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8131, h = 8182 time = 8
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8135, h = 8213 time = 9
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8146, h = 8197 time = 10
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8150, h = 8228 time = 10
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8158, h = 8209 time = 12
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8162, h = 8240 time = 12
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8166, h = 8217 time = 13
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8209, h = 8260 time = 13
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8213, h = 8291 time = 13
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8242, h = 8293 time = 14
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8246, h = 8324 time = 14
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8250, h = 8328 time = 17
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8290, h = 8341 time = 17
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8316, h = 8367 time = 17
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8359, h = 8410 time = 17
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8363, h = 8441 time = 17
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8374, h = 8425 time = 18
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8378, h = 8456 time = 18
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8406, h = 8457 time = 18
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8432, h = 8483 time = 18
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8475, h = 8526 time = 18
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8479, h = 8557 time = 18
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8490, h = 8541 time = 19
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8494, h = 8572 time = 19
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8514, h = 8565 time = 23
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8518, h = 8596 time = 24
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8526, h = 8577 time = 38
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8578, h = 8629 time = 38
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8582, h = 8660 time = 38
+28/11 15:08:00 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 4 - 5 on good hotel                     E3 day 4 score = 1115
+Client 2 stays 3 - 5 on good hotel            E2 day 4 E3 day 3 score = 1484
+Client 3 stays 1 - 2 on good hotel                              score = 824
+Client 4 stays 2 - 3 on cheap hotel                             score = 800
+Client 5 stays 1 - 3 on cheap hotel                             score = 1000
+Client 6 stays 1 - 2 on good hotel                              score = 797
+Client 7 stays 1 - 5 on cheap hotel           E2 day 2 E3 day 4 score = 1324
+Client 8 stays 1 - 3 on good hotel            E2 day 2          score = 1238
+Total score = 8582
+-------------------------------------------
+Time: 62        	Allocs: 293
+Bnbs: 355599    	Bound: 8582
+-------------------------------------------
+28/11 15:08:00 FINEST solver.FastOptimizer|Best Util: 10974
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8091, h = 8337 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8095, h = 8334 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8158, h = 8404 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8162, h = 8401 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8272, h = 8518 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8276, h = 8515 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8350, h = 8620 time = 4
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8354, h = 8617 time = 4
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8377, h = 8640 time = 4
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8445, h = 8715 time = 4
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8929, h = 9175 time = 10
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9058, h = 9297 time = 10
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9191, h = 9437 time = 10
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9234, h = 9473 time = 10
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9304, h = 9543 time = 11
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9372, h = 9618 time = 11
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9427, h = 9673 time = 12
+28/11 15:08:00 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 1 - 4 on cheap hotel  E1 day 3          E3 day 1 score = 1254
+Client 2 stays 2 - 5 on cheap hotel  E1 day 3 E2 day 4          score = 1224
+Client 3 stays 1 - 3 on good hotel                     E3 day 1 score = 1346
+Client 4 stays 2 - 3 on good hotel                              score = 997
+Client 5 stays 2 - 3 on cheap hotel                             score = 1000
+Client 6 stays 2 - 3 on good hotel            E2 day 2          score = 1333
+Client 7 stays 3 - 5 on cheap hotel           E2 day 3 E3 day 4 score = 1067
+Client 8 stays 4 - 5 on good hotel   E1 day 4                   score = 1206
+Total score = 9427
+-------------------------------------------
+Time: 238        	Allocs: 32694
+Bnbs: 3193848    	Bound: 9427
+-------------------------------------------
+28/11 15:08:00 FINEST solver.FastOptimizer|Best Util: 10067
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 7266, h = 7299 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 7281, h = 7314 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 7293, h = 7326 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 7347, h = 7419 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 7362, h = 7434 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 7828, h = 7886 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 7932, h = 7990 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 7944, h = 8002 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8013, h = 8110 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8058, h = 8130 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8087, h = 8146 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8099, h = 8158 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8168, h = 8266 time = 3
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8390, h = 8390 time = 3
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8479, h = 8479 time = 3
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8491, h = 8491 time = 3
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8547, h = 8547 time = 3
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8571, h = 8571 time = 3
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8958, h = 8958 time = 4
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9062, h = 9062 time = 4
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9068, h = 9068 time = 4
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9074, h = 9074 time = 4
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9120, h = 9120 time = 4
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9169, h = 9169 time = 4
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9179, h = 9179 time = 5
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9225, h = 9225 time = 5
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9274, h = 9274 time = 5
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9318, h = 9318 time = 5
+28/11 15:08:00 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 2 - 3 on good hotel   E1 day 2                   score = 1312
+Client 2 stays 1 - 4 on cheap hotel  E1 day 1 E2 day 2 E3 day 3 score = 1168
+Client 3 stays 1 - 2 on cheap hotel           E2 day 1          score = 1153
+Client 4 stays 2 - 3 on good hotel                              score = 1125
+Client 5 stays 1 - 2 on good hotel            E2 day 1          score = 1273
+Client 6 stays 3 - 5 on cheap hotel                    E3 day 3 score = 957
+Client 7 stays 1 - 3 on cheap hotel  E1 day 1 E2 day 2          score = 1093
+Client 8 stays 4 - 5 on good hotel   E1 day 4                   score = 1237
+Total score = 9318
+-------------------------------------------
+Time: 6        	Allocs: 4212
+Bnbs: 22739    	Bound: 9318
+-------------------------------------------
+28/11 15:08:00 FINEST solver.FastOptimizer|Best Util: 10414
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9268, h = 9268 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9273, h = 9273 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9357, h = 9357 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9366, h = 9366 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9395, h = 9395 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9404, h = 9404 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9406, h = 9406 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9416, h = 9416 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9425, h = 9425 time = 2
+28/11 15:08:00 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 1 - 3 on good hotel                     E3 day 1 score = 1300
+Client 2 stays 4 - 5 on good hotel            E2 day 4          score = 1124
+Client 3 stays 1 - 2 on cheap hotel                    E3 day 1 score = 1039
+Client 4 stays 1 - 5 on cheap hotel  E1 day 3          E3 day 2 score = 1277
+Client 5 stays 3 - 5 on cheap hotel           E2 day 3 E3 day 4 score = 1289
+Client 6 stays 3 - 5 on cheap hotel  E1 day 3 E2 day 4          score = 1142
+Client 7 stays 1 - 3 on cheap hotel                    E3 day 2 score = 961
+Client 8 stays 1 - 3 on good hotel   E1 day 1          E3 day 2 score = 1293
+Total score = 9425
+-------------------------------------------
+Time: 7        	Allocs: 135
+Bnbs: 45085    	Bound: 9425
+-------------------------------------------
+28/11 15:08:00 FINEST solver.FastOptimizer|Best Util: 10583
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8312, h = 8495 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8335, h = 8518 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8360, h = 8543 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8383, h = 8566 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8388, h = 8571 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8390, h = 8573 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8413, h = 8596 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8420, h = 8603 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8480, h = 8663 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8482, h = 8665 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8485, h = 8668 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8510, h = 8693 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8512, h = 8695 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8535, h = 8699 time = 4
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8869, h = 9033 time = 7
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8917, h = 9081 time = 7
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8924, h = 9088 time = 7
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9075, h = 9239 time = 7
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9080, h = 9244 time = 8
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9117, h = 9281 time = 8
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9119, h = 9283 time = 8
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9159, h = 9323 time = 8
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9164, h = 9328 time = 8
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9194, h = 9358 time = 8
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9199, h = 9363 time = 9
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9290, h = 9454 time = 11
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9313, h = 9477 time = 11
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9343, h = 9507 time = 11
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9405, h = 9569 time = 12
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9410, h = 9574 time = 12
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9425, h = 9589 time = 13
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9430, h = 9594 time = 13
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9431, h = 9513 time = 17
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9433, h = 9597 time = 18
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9438, h = 9602 time = 19
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9439, h = 9521 time = 19
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9484, h = 9648 time = 22
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9514, h = 9678 time = 22
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9517, h = 9681 time = 27
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9523, h = 9687 time = 50
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9528, h = 9692 time = 50
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9529, h = 9611 time = 51
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9541, h = 9705 time = 57
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9571, h = 9735 time = 57
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9631, h = 9713 time = 59
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9636, h = 9718 time = 60
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9682, h = 9764 time = 61
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9687, h = 9769 time = 62
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9702, h = 9784 time = 62
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9707, h = 9789 time = 63
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9712, h = 9794 time = 69
+28/11 15:08:00 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 3 - 5 on cheap hotel  E1 day 4                   score = 973
+Client 2 stays 2 - 3 on good hotel            E2 day 2          score = 1311
+Client 3 stays 2 - 3 on good hotel   E1 day 2                   score = 1196
+Client 4 stays 2 - 5 on cheap hotel  E1 day 2 E2 day 4 E3 day 3 score = 1418
+Client 5 stays 1 - 5 on good hotel   E1 day 3 E2 day 1 E3 day 4 score = 1528
+Client 6 stays 3 - 4 on good hotel                              score = 1079
+Client 7 stays 4 - 5 on good hotel   E1 day 4                   score = 1182
+Client 8 stays 3 - 4 on cheap hotel  E1 day 3                   score = 1025
+Total score = 9712
+-------------------------------------------
+Time: 76        	Allocs: 117655
+Bnbs: 1099248    	Bound: 9712
+-------------------------------------------
+28/11 15:08:00 FINEST solver.FastOptimizer|Best Util: 10519
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8139, h = 8139 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8187, h = 8187 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8328, h = 8328 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9105, h = 9240 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9122, h = 9122 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9239, h = 9374 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9302, h = 9302 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9315, h = 9315 time = 3
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9364, h = 9364 time = 4
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9431, h = 9431 time = 4
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9445, h = 9445 time = 5
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9539, h = 9539 time = 5
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9548, h = 9548 time = 5
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9549, h = 9549 time = 5
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9558, h = 9558 time = 5
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9587, h = 9587 time = 6
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 9619, h = 9619 time = 6
+28/11 15:08:00 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 1 - 4 on cheap hotel  E1 day 3 E2 day 1 E3 day 2 score = 1264
+Client 2 stays 3 - 4 on cheap hotel           E2 day 3          score = 1191
+Client 3 stays 1 - 2 on good hotel            E2 day 1          score = 1178
+Client 4 stays 1 - 3 on good hotel            E2 day 1 E3 day 2 score = 1382
+Client 5 stays 3 - 5 on good hotel            E2 day 4 E3 day 3 score = 1263
+Client 6 stays 4 - 5 on good hotel   E1 day 4                   score = 1103
+Client 7 stays 3 - 5 on cheap hotel  E1 day 4 E2 day 3          score = 1258
+Client 8 stays 1 - 3 on good hotel            E2 day 1          score = 980
+Total score = 9619
+-------------------------------------------
+Time: 8        	Allocs: 17689
+Bnbs: 106526    	Bound: 9619
+-------------------------------------------
+28/11 15:08:00 FINEST solver.FastOptimizer|Best Util: 9993
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8380, h = 8531 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8415, h = 8566 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8582, h = 8733 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8621, h = 8772 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8636, h = 8787 time = 0
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8782, h = 8933 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8821, h = 8972 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8825, h = 8976 time = 1
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8843, h = 8994 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8861, h = 9012 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8888, h = 9039 time = 2
+28/11 15:08:00 FINEST solver.FastOptimizer|New Bound: 8927, h = 9078 time = 3
+28/11 15:08:00 FINE solver.FastOptimizer|
+-------------------------------------------
+Final score
+-------------------------------------------
+Client 1 stays 1 - 3 on cheap hotel  E1 day 2                   score = 1144
+Client 2 stays 1 - 5 on cheap hotel           E2 day 2 E3 day 3 score = 1279
+Client 3 stays 1 - 2 on good hotel                              score = 1119
+Client 4 stays 2 - 3 on good hotel                              score = 922
+Client 5 stays 3 - 5 on good hotel   E1 day 3          E3 day 4 score = 1400
+Client 6 stays 2 - 3 on good hotel                              score = 1037
+Client 7 stays 2 - 3 on good hotel                              score = 1026
+Client 8 stays 1 - 2 on cheap hotel                             score = 1000
+Total score = 8927
+-------------------------------------------
+Time: 3        	Allocs: 6346
+Bnbs: 41012    	Bound: 8927
+-------------------------------------------
+28/11 15:08:00 FINE is.InfoServer|game 3 is finished
+28/11 15:08:00 FINE is.GameArchiver|Reading game 3 from applet3.log copying to /Users/renqilei/Documents/GitHubSpace/TAC-UoS-2014-Wukong/TAC/Server/public_html/history/3/applet.log.gz
+28/11 15:08:00 FINEST log.GameResultCreator|generating game 3 in path /Users/renqilei/Documents/GitHubSpace/TAC-UoS-2014-Wukong/TAC/Server/public_html/history/3
+28/11 15:08:00 FINEST log.GameResultCreator|adding game 3 to gametable-1.html
+28/11 15:08:00 SEVERE is.GameArchiver|Trying to write game 3 se.sics.tac.log.TACGameInfo@6fbdd222
+28/11 15:08:00 SEVERE is.GameArchiver|Competition null
+28/11 15:50:30 SEVERE is.ISTimerTask|forcing reconnection to the server after 38 seconds
+28/11 15:50:30 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 15:50:30 FINEST line.LineConnection|tac-1: connection from 127.0.0.1 requested to close
+28/11 15:50:30 FINEST line.LineConnection|tac-1: connection closed from 127.0.0.1
+28/11 15:50:30 WARNING line.LineConnection|tac-2: 127.0.0.1 closed connection
+28/11 15:50:30 FINEST line.LineConnection|tac-2: connection closed from 127.0.0.1
+28/11 15:51:00 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 15:51:00 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 15:51:00 WARNING line.LineConnection|tac-3: 127.0.0.1 closed connection
+28/11 15:51:00 FINEST line.LineConnection|tac-3: connection closed from 127.0.0.1
+28/11 15:57:32 SEVERE is.ISTimerTask|forcing reconnection to the server after 392 seconds
+28/11 15:57:32 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 15:57:32 WARNING line.LineConnection|tac-4: 127.0.0.1 closed connection
+28/11 15:57:32 FINEST line.LineConnection|tac-4: connection closed from 127.0.0.1
+28/11 15:58:02 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 15:58:02 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 15:58:02 WARNING line.LineConnection|tac-5: 127.0.0.1 closed connection
+28/11 15:58:02 FINEST line.LineConnection|tac-5: connection closed from 127.0.0.1
+28/11 15:58:32 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 15:58:32 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 15:58:32 WARNING line.LineConnection|tac-6: 127.0.0.1 closed connection
+28/11 15:58:32 FINEST line.LineConnection|tac-6: connection closed from 127.0.0.1
+28/11 15:59:02 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 15:59:02 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 15:59:02 WARNING line.LineConnection|tac-7: 127.0.0.1 closed connection
+28/11 15:59:02 FINEST line.LineConnection|tac-7: connection closed from 127.0.0.1
+28/11 15:59:32 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 15:59:32 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 15:59:32 WARNING line.LineConnection|tac-8: 127.0.0.1 closed connection
+28/11 15:59:32 FINEST line.LineConnection|tac-8: connection closed from 127.0.0.1
+28/11 16:00:02 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:00:02 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:00:02 WARNING line.LineConnection|tac-9: 127.0.0.1 closed connection
+28/11 16:00:02 FINEST line.LineConnection|tac-9: connection closed from 127.0.0.1
+28/11 16:00:32 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:00:32 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:00:32 WARNING line.LineConnection|tac-10: 127.0.0.1 closed connection
+28/11 16:00:32 FINEST line.LineConnection|tac-10: connection closed from 127.0.0.1
+28/11 16:01:02 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:01:02 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:01:02 WARNING line.LineConnection|tac-11: 127.0.0.1 closed connection
+28/11 16:01:02 FINEST line.LineConnection|tac-11: connection closed from 127.0.0.1
+28/11 16:01:32 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:01:32 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:01:32 WARNING line.LineConnection|tac-12: 127.0.0.1 closed connection
+28/11 16:01:32 FINEST line.LineConnection|tac-12: connection closed from 127.0.0.1
+28/11 16:02:02 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:02:02 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:02:02 WARNING line.LineConnection|tac-13: 127.0.0.1 closed connection
+28/11 16:02:02 FINEST line.LineConnection|tac-13: connection closed from 127.0.0.1
+28/11 16:02:32 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:02:32 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:02:32 WARNING line.LineConnection|tac-14: 127.0.0.1 closed connection
+28/11 16:02:32 FINEST line.LineConnection|tac-14: connection closed from 127.0.0.1
+28/11 16:03:02 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:03:02 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:03:02 WARNING line.LineConnection|tac-15: 127.0.0.1 closed connection
+28/11 16:03:02 FINEST line.LineConnection|tac-15: connection closed from 127.0.0.1
+28/11 16:03:32 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:03:32 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:03:32 WARNING line.LineConnection|tac-16: 127.0.0.1 closed connection
+28/11 16:03:32 FINEST line.LineConnection|tac-16: connection closed from 127.0.0.1
+28/11 16:04:02 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:04:02 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:04:02 WARNING line.LineConnection|tac-17: 127.0.0.1 closed connection
+28/11 16:04:02 FINEST line.LineConnection|tac-17: connection closed from 127.0.0.1
+28/11 16:04:32 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:04:32 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:04:32 WARNING line.LineConnection|tac-18: 127.0.0.1 closed connection
+28/11 16:04:32 FINEST line.LineConnection|tac-18: connection closed from 127.0.0.1
+28/11 16:05:02 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:05:02 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:05:02 WARNING line.LineConnection|tac-19: 127.0.0.1 closed connection
+28/11 16:05:02 FINEST line.LineConnection|tac-19: connection closed from 127.0.0.1
+28/11 16:05:32 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:05:32 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:05:32 WARNING line.LineConnection|tac-20: 127.0.0.1 closed connection
+28/11 16:05:32 FINEST line.LineConnection|tac-20: connection closed from 127.0.0.1
+28/11 16:06:02 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:06:02 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:06:02 WARNING line.LineConnection|tac-21: 127.0.0.1 closed connection
+28/11 16:06:02 FINEST line.LineConnection|tac-21: connection closed from 127.0.0.1
+28/11 16:06:32 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:06:32 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:06:32 WARNING line.LineConnection|tac-22: 127.0.0.1 closed connection
+28/11 16:06:32 FINEST line.LineConnection|tac-22: connection closed from 127.0.0.1
+28/11 16:07:02 SEVERE is.ISTimerTask|forcing reconnection to the server after 30 seconds
+28/11 16:07:02 SEVERE is.InfoServer|Reconnecting to TAC server at 127.0.0.1:4039
+28/11 16:07:02 WARNING line.LineConnection|tac-23: 127.0.0.1 closed connection
+28/11 16:07:02 FINEST line.LineConnection|tac-23: connection closed from 127.0.0.1

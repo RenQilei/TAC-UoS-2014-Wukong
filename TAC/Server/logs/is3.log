@@ -1,0 +1,10 @@
+21/11 15:06:19 FINE is.InfoServer|Using game path: /Users/renqilei/Documents/GitHubSpace/TAC-UoS-2014-Wukong/TAC/Server/public_html/history
+21/11 15:06:19 SEVERE is.InfoServer|You should register an admin user with the name 'admin'!
+************************************************************
+* You should register an admin user with the name 'admin'!
+************************************************************
+
+
+21/11 15:06:19 INFO is.AppletServer|viewer server started at *:4041
+21/11 15:06:19 SEVERE is.InfoServer|detected existing coming game 1 (1) prior to current time
+21/11 15:06:19 SEVERE is.InfoServer|detected existing coming game -1 (2) prior to current time

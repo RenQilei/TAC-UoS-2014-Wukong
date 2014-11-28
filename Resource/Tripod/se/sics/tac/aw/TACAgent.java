@@ -580,7 +580,6 @@ public class TACAgent implements Task, TACMessageReceiver {
     return auctionType[auction];
   }
 
-  // return the number of aution in TAC
   public static int getAuctionNo() {
     return NO_AUCTIONS;
   }
@@ -620,7 +619,6 @@ public class TACAgent implements Task, TACMessageReceiver {
     }
   }
 
-  // return the aution id for requested resource
   public static int getAuctionFor(int category, int type, int day) {
     if (category == 0) {
       if (type == 1) {
@@ -634,8 +632,6 @@ public class TACAgent implements Task, TACMessageReceiver {
     return category * 8 + type * 4 + day - 1;
   }
 
-  // return the category of this auction
-  // categories: CAT_FLIGHT, CAT_HOTEL, CAT_ENTERTAINMENT
   private int getAuctionCategory(String cat) {
     if ("flight".equals(cat)) return CAT_FLIGHT;
     if ("hotel".equals(cat)) return CAT_HOTEL;
@@ -649,21 +645,17 @@ public class TACAgent implements Task, TACMessageReceiver {
       ? categoryName[category]
       : Integer.toString(category);
   }
-  
-  // get the client preferences for specific type.
-  // types are ARRIVAl, DEPARTURE, HOTEL_VALUE, E1, E2 ans E3.
-  // All be defined in this file.
+
   public int getClientPreference(int client, int type) {
     return clientPrefs[client][type];
   }
 
-  // return the number of items that agent own for this aution
   public int getOwn(int auctionID) {
     // The id that the agent gets for auctions is always 0 - 27
     return owns[auctionID];
   }
 
-  // What might be owned in addition to "getOwn"
+    // What might be owned in addition  to "getOwn"
   public int getProbablyOwn(int auctionID) {
     Bid bid = getBid(auctionID);
     if (bid == null)
@@ -675,22 +667,18 @@ public class TACAgent implements Task, TACMessageReceiver {
     return bid.getQuantity();
   }
 
-  // return the active bid for specified aution
   public synchronized Bid getBid(int auctionID) {
     return bids[auctionID];
   }
 
-  // return current quote for the specified aution
   public Quote getQuote(int auctionID) {
     return quotes[auctionID];
   }
 
-  // return the agent allocation for this auction (number of items that it wants to own)
   public int getAllocation(int auction) {
     return allocate[auction];
   }
 
-  // set the number of items that the agent should own for this auction
   public void setAllocation(int auction, int alloc) {
     allocate[auction] = alloc;
     if (tableModel != null) {
@@ -698,7 +686,6 @@ public class TACAgent implements Task, TACMessageReceiver {
     }
   }
 
-  // clear the number of items that the agent should own (set it to zero)
   public void clearAllocation() {
     for (int i = 0; i < NO_AUCTIONS; i++) {
       allocate[i] = 0;
