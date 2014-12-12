@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="tacaw"/>
+	<classpathentry kind="lib" path="tacserver/infoserver.jar"/>
+	<classpathentry kind="lib" path="tacserver/lib/javax.servlet.jar"/>
+	<classpathentry kind="lib" path="tacserver/lib/mysql_comp.jar"/>
+	<classpathentry kind="lib" path="tacserver/lib/org.mortbay.jetty.jar"/>
+	<classpathentry kind="lib" path="tacserver/public_html/code/tacapplet.jar"/>
+	<classpathentry kind="lib" path="tacserver/tacserver.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="tacaw"/>
+</classpath>
